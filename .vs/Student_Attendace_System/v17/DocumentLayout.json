@@ -1,0 +1,995 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Student_Attendace_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|f:\\student_attendace_system\\dashbord\\addstudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:dashbord\\addstudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\dashbord\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:dashbord\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\dashbord\\addteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:dashbord\\addteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\addnewsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\addnewsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\addnewsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\addnewsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\addnewstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\addnewstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\addfaculty.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\addfaculty.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\dashbord\\addlecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:dashbord\\addlecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\dashbord\\addteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:dashbord\\addteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\addnewteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\addnewteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\updateteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\updateteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\dashbord\\addlecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:dashbord\\addlecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\updatelecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\updatelecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\shared\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\shared\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\updateteacher.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\updateteacher.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\updatesubject.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\updatesubject.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\updatestudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\updatestudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\updatelecture.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\updatelecture.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\updatefaculty.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\updatefaculty.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\updateteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\updateteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\updatesubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\updatesubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\updatesubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\updatesubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\updatestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\updatestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\updatestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\updatestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\updatelecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\updatelecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\updatefaculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\updatefaculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\updatefaculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\updatefaculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\teacherupdatepopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\teacherupdatepopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\teacherupdatepopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\teacherupdatepopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\teacheraddedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\teacheraddedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\teacheraddedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\teacheraddedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\subjectupdatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\subjectupdatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\subjectupdatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\subjectupdatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\subjectaddedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\subjectaddedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\subjectaddedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\subjectaddedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\studentupdatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\studentupdatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\studentupdatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\studentupdatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\studentaddedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\studentaddedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\studentaddedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\studentaddedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\lectureupdatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\lectureupdatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\lectureupdatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\lectureupdatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\lecturecreatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\lecturecreatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\lecturecreatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\lecturecreatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\facultyupdatedpopup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\facultyupdatedpopup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\facultyupdatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\facultyupdatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\facultyupdatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\facultyupdatedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\facultyaddedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\facultyaddedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\facultyaddedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\facultyaddedpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\createnewlecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\createnewlecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\createnewlecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\createnewlecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\addnewteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\addnewteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\addfaculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\addfaculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\addnewstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\addnewstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\popupforms\\addfaculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:popupforms\\addfaculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\dashbord\\addteacher.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:dashbord\\addteacher.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\dashbord\\dashbord_window.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:dashbord\\dashbord_window.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\dashbord\\home_panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:dashbord\\home_panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\dashbord\\home_panel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:dashbord\\home_panel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\dashbord\\dashbord_window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:dashbord\\dashbord_window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\dashbord\\home_panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:dashbord\\home_panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|F:\\Student_Attendace_System\\dashbord\\dashbord_window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6002F424-115C-499F-A090-A56B524FF8F4}|Student_Attendace_System.csproj|solutionrelative:dashbord\\dashbord_window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a8466fe-5a05-4f81-ad45-7d7c1316817e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a9b7e51-aa16-11d0-a8c5-00a0c921a4d2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddStudent.Designer.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\Dashbord\\AddStudent.Designer.cs",
+              "RelativeDocumentMoniker": "Dashbord\\AddStudent.Designer.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\Dashbord\\AddStudent.Designer.cs",
+              "RelativeToolTip": "Dashbord\\AddStudent.Designer.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:23:23.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddStudent.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\Dashbord\\AddStudent.cs",
+              "RelativeDocumentMoniker": "Dashbord\\AddStudent.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\Dashbord\\AddStudent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:08:25.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddLecture.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\Dashbord\\AddLecture.cs",
+              "RelativeDocumentMoniker": "Dashbord\\AddLecture.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\Dashbord\\AddLecture.cs",
+              "RelativeToolTip": "Dashbord\\AddLecture.cs",
+              "ViewState": "AQIAALcAAAAAAAAAAAAAAMoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T13:51:04.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "APIHelper.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\shared\\APIHelper.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\shared\\APIHelper.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\shared\\APIHelper.cs",
+              "RelativeToolTip": "PopUpForms\\shared\\APIHelper.cs",
+              "ViewState": "AQIAAIcBAAAAAAAAAAAAAJMBAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:27:37.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateTeacher.Designer.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\UpdateTeacher.Designer.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\UpdateTeacher.Designer.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\UpdateTeacher.Designer.cs",
+              "RelativeToolTip": "PopUpForms\\UpdateTeacher.Designer.cs",
+              "ViewState": "AQIAAKUAAAAAAAAAAAASwLMAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:17:15.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateSubject.Designer.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\UpdateSubject.Designer.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\UpdateSubject.Designer.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\UpdateSubject.Designer.cs",
+              "RelativeToolTip": "PopUpForms\\UpdateSubject.Designer.cs",
+              "ViewState": "AQIAAL4AAAAAAAAAAAASwMwAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T17:32:01.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdateStudent.Designer.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\UpdateStudent.Designer.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\UpdateStudent.Designer.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\UpdateStudent.Designer.cs",
+              "RelativeToolTip": "PopUpForms\\UpdateStudent.Designer.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAASwKMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T17:26:27.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateLecture.Designer.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\UpdateLecture.Designer.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\UpdateLecture.Designer.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\UpdateLecture.Designer.cs",
+              "RelativeToolTip": "PopUpForms\\UpdateLecture.Designer.cs",
+              "ViewState": "AQIAAEABAAAAAAAAAAASwE4BAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T17:15:18.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UpdateFaculty.Designer.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\UpdateFaculty.Designer.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\UpdateFaculty.Designer.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\UpdateFaculty.Designer.cs",
+              "RelativeToolTip": "PopUpForms\\UpdateFaculty.Designer.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAASwJsAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T17:14:17.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateTeacher.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\UpdateTeacher.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\UpdateTeacher.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\UpdateTeacher.cs",
+              "RelativeToolTip": "PopUpForms\\UpdateTeacher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:01:10.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UpdateTeacher.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\UpdateTeacher.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\UpdateTeacher.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\UpdateTeacher.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:01:09.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateSubject.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\UpdateSubject.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\UpdateSubject.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\UpdateSubject.cs",
+              "RelativeToolTip": "PopUpForms\\UpdateSubject.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAD8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:01:06.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UpdateSubject.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\UpdateSubject.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\UpdateSubject.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\UpdateSubject.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:01:04.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdateStudent.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\UpdateStudent.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\UpdateStudent.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\UpdateStudent.cs",
+              "RelativeToolTip": "PopUpForms\\UpdateStudent.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAgwEcAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:01:01.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UpdateStudent.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\UpdateStudent.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\UpdateStudent.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\UpdateStudent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:01:00.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateLecture.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\UpdateLecture.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\UpdateLecture.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\UpdateLecture.cs",
+              "RelativeToolTip": "PopUpForms\\UpdateLecture.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAYwCUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:00:56.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdateLecture.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\UpdateLecture.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\UpdateLecture.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\UpdateLecture.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:00:54.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateFaculty.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\UpdateFaculty.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\UpdateFaculty.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\UpdateFaculty.cs",
+              "RelativeToolTip": "PopUpForms\\UpdateFaculty.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:00:50.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateFaculty.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\UpdateFaculty.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\UpdateFaculty.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\UpdateFaculty.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:00:48.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TeacherUpdatePopUp.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\TeacherUpdatePopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\TeacherUpdatePopUp.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\TeacherUpdatePopUp.cs",
+              "RelativeToolTip": "PopUpForms\\TeacherUpdatePopUp.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAASwB8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:00:44.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TeacherUpdatePopUp.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\TeacherUpdatePopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\TeacherUpdatePopUp.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\TeacherUpdatePopUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:00:43.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TeacherAddedPopUp.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\TeacherAddedPopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\TeacherAddedPopUp.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\TeacherAddedPopUp.cs",
+              "RelativeToolTip": "PopUpForms\\TeacherAddedPopUp.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAASwB8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:00:39.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TeacherAddedPopUp.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\TeacherAddedPopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\TeacherAddedPopUp.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\TeacherAddedPopUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:00:37.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SubjectUpdatedPopUp.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\SubjectUpdatedPopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\SubjectUpdatedPopUp.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\SubjectUpdatedPopUp.cs",
+              "RelativeToolTip": "PopUpForms\\SubjectUpdatedPopUp.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAASwB8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:00:32.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SubjectUpdatedPopUp.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\SubjectUpdatedPopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\SubjectUpdatedPopUp.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\SubjectUpdatedPopUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:00:30.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SubjectAddedPopUp.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\SubjectAddedPopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\SubjectAddedPopUp.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\SubjectAddedPopUp.cs",
+              "RelativeToolTip": "PopUpForms\\SubjectAddedPopUp.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAASwCEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:00:26.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SubjectAddedPopUp.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\SubjectAddedPopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\SubjectAddedPopUp.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\SubjectAddedPopUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:00:24.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "StudentUpdatedPopUp.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\StudentUpdatedPopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\StudentUpdatedPopUp.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\StudentUpdatedPopUp.cs",
+              "RelativeToolTip": "PopUpForms\\StudentUpdatedPopUp.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAASwB8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:00:20.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "StudentUpdatedPopUp.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\StudentUpdatedPopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\StudentUpdatedPopUp.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\StudentUpdatedPopUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:00:18.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "StudentAddedPopUp.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\StudentAddedPopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\StudentAddedPopUp.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\StudentAddedPopUp.cs",
+              "RelativeToolTip": "PopUpForms\\StudentAddedPopUp.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAASwDMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:00:13.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "StudentAddedPopUp.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\StudentAddedPopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\StudentAddedPopUp.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\StudentAddedPopUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:00:11.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LectureUpdatedPopUp.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\LectureUpdatedPopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\LectureUpdatedPopUp.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\LectureUpdatedPopUp.cs",
+              "RelativeToolTip": "PopUpForms\\LectureUpdatedPopUp.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAASwB8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:00:05.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "LectureUpdatedPopUp.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\LectureUpdatedPopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\LectureUpdatedPopUp.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\LectureUpdatedPopUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:00:03.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LectureCreatedPopUp.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\LectureCreatedPopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\LectureCreatedPopUp.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\LectureCreatedPopUp.cs",
+              "RelativeToolTip": "PopUpForms\\LectureCreatedPopUp.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAASwCEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:59:56.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LectureCreatedPopUp.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\LectureCreatedPopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\LectureCreatedPopUp.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\LectureCreatedPopUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:59:54.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "FacultyUpdatedPopUp.Designer.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\FacultyUpdatedPopUp.Designer.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\FacultyUpdatedPopUp.Designer.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\FacultyUpdatedPopUp.Designer.cs",
+              "RelativeToolTip": "PopUpForms\\FacultyUpdatedPopUp.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:59:50.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "FacultyUpdatedPopUp.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\FacultyUpdatedPopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\FacultyUpdatedPopUp.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\FacultyUpdatedPopUp.cs",
+              "RelativeToolTip": "PopUpForms\\FacultyUpdatedPopUp.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAASwCQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:59:44.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "FacultyUpdatedPopUp.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\FacultyUpdatedPopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\FacultyUpdatedPopUp.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\FacultyUpdatedPopUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:59:42.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "FacultyAddedPopUp.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\FacultyAddedPopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\FacultyAddedPopUp.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\FacultyAddedPopUp.cs",
+              "RelativeToolTip": "PopUpForms\\FacultyAddedPopUp.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAASwCMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:59:40.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "FacultyAddedPopUp.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\FacultyAddedPopUp.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\FacultyAddedPopUp.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\FacultyAddedPopUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:59:37.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CreateNewLecture.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\CreateNewLecture.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\CreateNewLecture.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\CreateNewLecture.cs",
+              "RelativeToolTip": "PopUpForms\\CreateNewLecture.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAASwDkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:59:32.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CreateNewLecture.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\CreateNewLecture.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\CreateNewLecture.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\CreateNewLecture.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:59:30.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AddNewTeacher.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\AddNewTeacher.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\AddNewTeacher.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\AddNewTeacher.cs",
+              "RelativeToolTip": "PopUpForms\\AddNewTeacher.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:59:26.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AddFaculty.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\AddFaculty.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\AddFaculty.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\AddFaculty.cs",
+              "RelativeToolTip": "PopUpForms\\AddFaculty.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAASwC4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:58:47.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddNewStudent.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\AddNewStudent.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\AddNewStudent.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\AddNewStudent.cs",
+              "RelativeToolTip": "PopUpForms\\AddNewStudent.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAASwFEAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:58:41.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddNewSubject.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\AddNewSubject.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\AddNewSubject.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\AddNewSubject.cs",
+              "RelativeToolTip": "PopUpForms\\AddNewSubject.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAswDwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:58:22.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddNewSubject.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\AddNewSubject.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\AddNewSubject.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\AddNewSubject.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:58:10.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AddNewStudent.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\AddNewStudent.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\AddNewStudent.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\AddNewStudent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:58:07.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddNewTeacher.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\AddNewTeacher.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\AddNewTeacher.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\AddNewTeacher.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:47:01.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AddFaculty.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\AddFaculty.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\AddFaculty.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\PopUpForms\\AddFaculty.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:38:47.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AddTeacher.Designer.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\Dashbord\\AddTeacher.Designer.cs",
+              "RelativeDocumentMoniker": "Dashbord\\AddTeacher.Designer.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\Dashbord\\AddTeacher.Designer.cs",
+              "RelativeToolTip": "Dashbord\\AddTeacher.Designer.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAASwDwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:18:22.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddTeacher.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\Dashbord\\AddTeacher.cs",
+              "RelativeDocumentMoniker": "Dashbord\\AddTeacher.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\Dashbord\\AddTeacher.cs",
+              "RelativeToolTip": "Dashbord\\AddTeacher.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAIwHwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T13:54:24.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Dashbord_window.Designer.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\Dashbord\\Dashbord_window.Designer.cs",
+              "RelativeDocumentMoniker": "Dashbord\\Dashbord_window.Designer.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\Dashbord\\Dashbord_window.Designer.cs",
+              "RelativeToolTip": "Dashbord\\Dashbord_window.Designer.cs",
+              "ViewState": "AQIAAP0AAAAAAAAAAAAiwAoBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T13:52:07.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddLecture.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\Dashbord\\AddLecture.cs",
+              "RelativeDocumentMoniker": "Dashbord\\AddLecture.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\Dashbord\\AddLecture.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T13:51:00.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddFaculty.Designer.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\PopUpForms\\AddFaculty.Designer.cs",
+              "RelativeDocumentMoniker": "PopUpForms\\AddFaculty.Designer.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\PopUpForms\\AddFaculty.Designer.cs",
+              "RelativeToolTip": "PopUpForms\\AddFaculty.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T13:36:07.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Home_panel.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\Dashbord\\Home_panel.cs",
+              "RelativeDocumentMoniker": "Dashbord\\Home_panel.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\Dashbord\\Home_panel.cs",
+              "RelativeToolTip": "Dashbord\\Home_panel.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAEAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T13:27:25.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Home_panel.Designer.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\Dashbord\\Home_panel.Designer.cs",
+              "RelativeDocumentMoniker": "Dashbord\\Home_panel.Designer.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\Dashbord\\Home_panel.Designer.cs",
+              "RelativeToolTip": "Dashbord\\Home_panel.Designer.cs",
+              "ViewState": "AQIAAJEBAAAAAAAAAAASwKIBAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T13:27:17.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddTeacher.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\Dashbord\\AddTeacher.cs",
+              "RelativeDocumentMoniker": "Dashbord\\AddTeacher.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\Dashbord\\AddTeacher.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T12:47:20.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwBUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T11:40:39.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Dashbord_window.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\Dashbord\\Dashbord_window.cs",
+              "RelativeDocumentMoniker": "Dashbord\\Dashbord_window.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\Dashbord\\Dashbord_window.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T11:37:11.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Home_panel.cs [Design]",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\Dashbord\\Home_panel.cs",
+              "RelativeDocumentMoniker": "Dashbord\\Home_panel.cs",
+              "ToolTip": "E:\\Programing\\C#\\final\\Student_Attendace_System\\Dashbord\\Home_panel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T11:36:46.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Dashbord_window.cs",
+              "DocumentMoniker": "F:\\Student_Attendace_System\\Dashbord\\Dashbord_window.cs",
+              "RelativeDocumentMoniker": "Dashbord\\Dashbord_window.cs",
+              "ToolTip": "F:\\Student_Attendace_System\\Dashbord\\Dashbord_window.cs",
+              "RelativeToolTip": "Dashbord\\Dashbord_window.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAASwIIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T06:27:29.381Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
