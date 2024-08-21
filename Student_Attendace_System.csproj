@@ -384,6 +384,10 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\book %283%29.png" />
+    <None Include="Resources\book %282%29.png" />
+    <None Include="Resources\book %281%29.png" />
+    <None Include="Resources\book.png" />
     <None Include="Dashbord\img\attendance.png" />
     <Content Include="Dashbord\img\icons8-back-30.png" />
     <Content Include="Dashbord\img\icons8-list-50.png" />

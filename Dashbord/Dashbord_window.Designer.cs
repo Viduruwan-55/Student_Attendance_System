@@ -21,11 +21,25 @@ namespace Student_Attendace_System.Dashbord
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.subject_btn = new System.Windows.Forms.Button();
+            this.Add_Faculty_btn = new System.Windows.Forms.Button();
             this.logoLb2 = new System.Windows.Forms.Label();
+            this.add_student_btn = new System.Windows.Forms.Button();
+            this.add_teacher_btn = new System.Windows.Forms.Button();
             this.logoLb1 = new System.Windows.Forms.Label();
+            this.leture_btn = new System.Windows.Forms.Button();
+            this.uniLogoPicBox = new System.Windows.Forms.PictureBox();
+            this.report_btn = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.facultyLb = new System.Windows.Forms.Label();
             this.uniLb = new System.Windows.Forms.Label();
+            this.dashbord_btn = new System.Windows.Forms.Button();
+            this.log_out_btn = new System.Windows.Forms.Button();
+            this.home_panel2 = new Student_Attendace_System.Dashbord.Home_panel();
+            this.addTeacher2 = new Student_Attendace_System.Dashbord.AddTeacher();
+            this.addStudent1 = new Student_Attendace_System.Dashbord.AddStudent();
+            this.addLecture2 = new Student_Attendace_System.Dashbord.AddLecture();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -37,29 +51,16 @@ namespace Student_Attendace_System.Dashbord
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
-            this.Add_Faculty_btn = new System.Windows.Forms.Button();
-            this.add_student_btn = new System.Windows.Forms.Button();
-            this.add_teacher_btn = new System.Windows.Forms.Button();
-            this.leture_btn = new System.Windows.Forms.Button();
-            this.uniLogoPicBox = new System.Windows.Forms.PictureBox();
-            this.report_btn = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.dashbord_btn = new System.Windows.Forms.Button();
-            this.log_out_btn = new System.Windows.Forms.Button();
-            this.logo_pic_box = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.home_panel2 = new Student_Attendace_System.Dashbord.Home_panel();
-            this.addTeacher2 = new Student_Attendace_System.Dashbord.AddTeacher();
-            this.addStudent1 = new Student_Attendace_System.Dashbord.AddStudent();
-            this.addLecture2 = new Student_Attendace_System.Dashbord.AddLecture();
             this.addTeacher = new Student_Attendace_System.Dashbord.AddTeacher();
             this.sTudent1 = new Student_Attendace_System.Dashbord.AddStudent();
             this.addLecture1 = new Student_Attendace_System.Dashbord.AddLecture();
             this.addTeacher1 = new Student_Attendace_System.Dashbord.AddTeacher();
+            this.logo_pic_box = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.uniLogoPicBox)).BeginInit();
+            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo_pic_box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -69,6 +70,7 @@ namespace Student_Attendace_System.Dashbord
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(235)))), ((int)(((byte)(218)))));
+            this.panel1.Controls.Add(this.subject_btn);
             this.panel1.Controls.Add(this.Add_Faculty_btn);
             this.panel1.Controls.Add(this.logoLb2);
             this.panel1.Controls.Add(this.add_student_btn);
@@ -88,37 +90,166 @@ namespace Student_Attendace_System.Dashbord
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1440, 878);
+            this.panel1.Size = new System.Drawing.Size(1920, 1081);
             this.panel1.TabIndex = 0;
+            // 
+            // subject_btn
+            // 
+            this.subject_btn.AccessibleName = "add_subject_btn";
+            this.subject_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(235)))), ((int)(((byte)(218)))));
+            this.subject_btn.FlatAppearance.BorderSize = 0;
+            this.subject_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.subject_btn.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subject_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
+            this.subject_btn.Image = global::Student_Attendace_System.Properties.Resources.book__3_;
+            this.subject_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.subject_btn.Location = new System.Drawing.Point(51, 614);
+            this.subject_btn.Margin = new System.Windows.Forms.Padding(5);
+            this.subject_btn.Name = "subject_btn";
+            this.subject_btn.Size = new System.Drawing.Size(319, 66);
+            this.subject_btn.TabIndex = 19;
+            this.subject_btn.Text = "Add Subject";
+            this.subject_btn.UseVisualStyleBackColor = false;
+            this.subject_btn.Click += new System.EventHandler(this.subject_btn_Click);
+            // 
+            // Add_Faculty_btn
+            // 
+            this.Add_Faculty_btn.AccessibleName = "add_faculty_btn";
+            this.Add_Faculty_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(235)))), ((int)(((byte)(218)))));
+            this.Add_Faculty_btn.FlatAppearance.BorderSize = 0;
+            this.Add_Faculty_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Add_Faculty_btn.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Add_Faculty_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
+            this.Add_Faculty_btn.Image = global::Student_Attendace_System.Properties.Resources.school;
+            this.Add_Faculty_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Add_Faculty_btn.Location = new System.Drawing.Point(51, 538);
+            this.Add_Faculty_btn.Margin = new System.Windows.Forms.Padding(5);
+            this.Add_Faculty_btn.Name = "Add_Faculty_btn";
+            this.Add_Faculty_btn.Size = new System.Drawing.Size(319, 66);
+            this.Add_Faculty_btn.TabIndex = 7;
+            this.Add_Faculty_btn.Text = "Add Faculty";
+            this.Add_Faculty_btn.UseVisualStyleBackColor = false;
+            this.Add_Faculty_btn.Click += new System.EventHandler(this.Add_Faculty_btn_Click);
             // 
             // logoLb2
             // 
             this.logoLb2.AutoSize = true;
             this.logoLb2.Font = new System.Drawing.Font("Calibri Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logoLb2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(9)))), ((int)(((byte)(13)))));
-            this.logoLb2.Location = new System.Drawing.Point(114, 91);
-            this.logoLb2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.logoLb2.Location = new System.Drawing.Point(152, 112);
+            this.logoLb2.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.logoLb2.Name = "logoLb2";
-            this.logoLb2.Padding = new System.Windows.Forms.Padding(0, 8, 0, 0);
-            this.logoLb2.Size = new System.Drawing.Size(172, 31);
+            this.logoLb2.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.logoLb2.Size = new System.Drawing.Size(218, 39);
             this.logoLb2.TabIndex = 16;
             this.logoLb2.Text = "University of Kelaniya\r";
             this.logoLb2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // add_student_btn
+            // 
+            this.add_student_btn.AccessibleName = "add_student_btn";
+            this.add_student_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(235)))), ((int)(((byte)(218)))));
+            this.add_student_btn.FlatAppearance.BorderSize = 0;
+            this.add_student_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.add_student_btn.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.add_student_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
+            this.add_student_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_student;
+            this.add_student_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.add_student_btn.Location = new System.Drawing.Point(51, 386);
+            this.add_student_btn.Margin = new System.Windows.Forms.Padding(5);
+            this.add_student_btn.Name = "add_student_btn";
+            this.add_student_btn.Size = new System.Drawing.Size(319, 66);
+            this.add_student_btn.TabIndex = 3;
+            this.add_student_btn.Text = "Add Student\r\n\r\n";
+            this.add_student_btn.UseVisualStyleBackColor = false;
+            this.add_student_btn.Click += new System.EventHandler(this.add_student_btn_Click_1);
+            // 
+            // add_teacher_btn
+            // 
+            this.add_teacher_btn.AccessibleName = "add_teacher_btn";
+            this.add_teacher_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(235)))), ((int)(((byte)(218)))));
+            this.add_teacher_btn.FlatAppearance.BorderSize = 0;
+            this.add_teacher_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.add_teacher_btn.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.add_teacher_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
+            this.add_teacher_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_teacher;
+            this.add_teacher_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.add_teacher_btn.Location = new System.Drawing.Point(51, 462);
+            this.add_teacher_btn.Margin = new System.Windows.Forms.Padding(5);
+            this.add_teacher_btn.Name = "add_teacher_btn";
+            this.add_teacher_btn.Size = new System.Drawing.Size(319, 66);
+            this.add_teacher_btn.TabIndex = 6;
+            this.add_teacher_btn.Text = "Add Teacher";
+            this.add_teacher_btn.UseVisualStyleBackColor = false;
+            this.add_teacher_btn.Click += new System.EventHandler(this.add_teacher_btn_Click);
             // 
             // logoLb1
             // 
             this.logoLb1.AutoSize = true;
             this.logoLb1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logoLb1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(9)))), ((int)(((byte)(13)))));
-            this.logoLb1.Location = new System.Drawing.Point(113, 33);
-            this.logoLb1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.logoLb1.Location = new System.Drawing.Point(151, 41);
+            this.logoLb1.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.logoLb1.Name = "logoLb1";
-            this.logoLb1.Size = new System.Drawing.Size(211, 58);
+            this.logoLb1.Size = new System.Drawing.Size(264, 74);
             this.logoLb1.TabIndex = 15;
             this.logoLb1.Text = "Student Attendance\r\nSystem";
             this.logoLb1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // leture_btn
+            // 
+            this.leture_btn.AccessibleName = "leture_btn";
+            this.leture_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(235)))), ((int)(((byte)(218)))));
+            this.leture_btn.FlatAppearance.BorderSize = 0;
+            this.leture_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.leture_btn.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.leture_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
+            this.leture_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_meeting_room_100;
+            this.leture_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.leture_btn.Location = new System.Drawing.Point(51, 690);
+            this.leture_btn.Margin = new System.Windows.Forms.Padding(5);
+            this.leture_btn.Name = "leture_btn";
+            this.leture_btn.Padding = new System.Windows.Forms.Padding(0, 0, 11, 0);
+            this.leture_btn.Size = new System.Drawing.Size(319, 66);
+            this.leture_btn.TabIndex = 5;
+            this.leture_btn.Text = "Lecture Scheduling";
+            this.leture_btn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.leture_btn.UseVisualStyleBackColor = false;
+            this.leture_btn.Click += new System.EventHandler(this.leture_btn_Click);
+            // 
+            // uniLogoPicBox
+            // 
+            this.uniLogoPicBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.uniLogoPicBox.Image = global::Student_Attendace_System.Properties.Resources.university_of_kelaniya_logo;
+            this.uniLogoPicBox.Location = new System.Drawing.Point(4, 28);
+            this.uniLogoPicBox.Margin = new System.Windows.Forms.Padding(4);
+            this.uniLogoPicBox.Name = "uniLogoPicBox";
+            this.uniLogoPicBox.Size = new System.Drawing.Size(136, 129);
+            this.uniLogoPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.uniLogoPicBox.TabIndex = 14;
+            this.uniLogoPicBox.TabStop = false;
+            // 
+            // report_btn
+            // 
+            this.report_btn.AccessibleName = "report_btn";
+            this.report_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(235)))), ((int)(((byte)(218)))));
+            this.report_btn.FlatAppearance.BorderSize = 0;
+            this.report_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.report_btn.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.report_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
+            this.report_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_reports;
+            this.report_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.report_btn.Location = new System.Drawing.Point(51, 762);
+            this.report_btn.Margin = new System.Windows.Forms.Padding(0);
+            this.report_btn.Name = "report_btn";
+            this.report_btn.Padding = new System.Windows.Forms.Padding(0, 0, 47, 0);
+            this.report_btn.Size = new System.Drawing.Size(319, 66);
+            this.report_btn.TabIndex = 4;
+            this.report_btn.Text = "Reports";
+            this.report_btn.UseVisualStyleBackColor = false;
+            this.report_btn.Click += new System.EventHandler(this.report_btn_Click);
             // 
             // panel4
             // 
@@ -126,21 +257,34 @@ namespace Student_Attendace_System.Dashbord
             this.panel4.Controls.Add(this.pictureBox3);
             this.panel4.Controls.Add(this.facultyLb);
             this.panel4.Controls.Add(this.uniLb);
-            this.panel4.Location = new System.Drawing.Point(326, 0);
+            this.panel4.Location = new System.Drawing.Point(435, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1114, 104);
+            this.panel4.Size = new System.Drawing.Size(1485, 128);
             this.panel4.TabIndex = 13;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Image = global::Student_Attendace_System.Properties.Resources.icons8_setting_50__1____Copy;
+            this.pictureBox3.Location = new System.Drawing.Point(1280, 28);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(72, 70);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 4;
+            this.pictureBox3.TabStop = false;
             // 
             // facultyLb
             // 
             this.facultyLb.AutoSize = true;
             this.facultyLb.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.facultyLb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(9)))), ((int)(((byte)(13)))));
-            this.facultyLb.Location = new System.Drawing.Point(522, 9);
-            this.facultyLb.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.facultyLb.Location = new System.Drawing.Point(696, 11);
+            this.facultyLb.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.facultyLb.Name = "facultyLb";
-            this.facultyLb.Size = new System.Drawing.Size(420, 33);
+            this.facultyLb.Size = new System.Drawing.Size(535, 41);
             this.facultyLb.TabIndex = 0;
             this.facultyLb.Text = "Faculty of Computing and Technology\r\n";
             this.facultyLb.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -150,20 +294,101 @@ namespace Student_Attendace_System.Dashbord
             this.uniLb.AutoSize = true;
             this.uniLb.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uniLb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(9)))), ((int)(((byte)(13)))));
-            this.uniLb.Location = new System.Drawing.Point(522, 51);
-            this.uniLb.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.uniLb.Location = new System.Drawing.Point(696, 63);
+            this.uniLb.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.uniLb.Name = "uniLb";
-            this.uniLb.Size = new System.Drawing.Size(226, 29);
+            this.uniLb.Size = new System.Drawing.Size(281, 37);
             this.uniLb.TabIndex = 2;
             this.uniLb.Text = "University of Kelaniya\r\n";
             // 
+            // dashbord_btn
+            // 
+            this.dashbord_btn.AccessibleName = "dashbord_btn";
+            this.dashbord_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
+            this.dashbord_btn.FlatAppearance.BorderSize = 0;
+            this.dashbord_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dashbord_btn.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashbord_btn.ForeColor = System.Drawing.Color.White;
+            this.dashbord_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_dashboard_48;
+            this.dashbord_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.dashbord_btn.Location = new System.Drawing.Point(51, 255);
+            this.dashbord_btn.Margin = new System.Windows.Forms.Padding(5);
+            this.dashbord_btn.Name = "dashbord_btn";
+            this.dashbord_btn.Padding = new System.Windows.Forms.Padding(4, 0, 33, 0);
+            this.dashbord_btn.Size = new System.Drawing.Size(319, 55);
+            this.dashbord_btn.TabIndex = 2;
+            this.dashbord_btn.Text = "Dashbord\r\n\r\n";
+            this.dashbord_btn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.dashbord_btn.UseVisualStyleBackColor = false;
+            this.dashbord_btn.Click += new System.EventHandler(this.dashbord_btn_Click);
+            // 
+            // log_out_btn
+            // 
+            this.log_out_btn.AccessibleName = "log_out_btn";
+            this.log_out_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
+            this.log_out_btn.FlatAppearance.BorderSize = 0;
+            this.log_out_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.log_out_btn.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.log_out_btn.ForeColor = System.Drawing.Color.White;
+            this.log_out_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_logout;
+            this.log_out_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.log_out_btn.Location = new System.Drawing.Point(51, 964);
+            this.log_out_btn.Margin = new System.Windows.Forms.Padding(5);
+            this.log_out_btn.Name = "log_out_btn";
+            this.log_out_btn.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
+            this.log_out_btn.Size = new System.Drawing.Size(319, 58);
+            this.log_out_btn.TabIndex = 9;
+            this.log_out_btn.Text = "Log out\r\n\r\n\r\n\r\n";
+            this.log_out_btn.UseVisualStyleBackColor = false;
+            this.log_out_btn.Click += new System.EventHandler(this.log_out_btn_Click);
+            // 
+            // home_panel2
+            // 
+            this.home_panel2.BackColor = System.Drawing.Color.White;
+            this.home_panel2.Location = new System.Drawing.Point(435, 130);
+            this.home_panel2.Margin = new System.Windows.Forms.Padding(5);
+            this.home_panel2.Name = "home_panel2";
+            this.home_panel2.Size = new System.Drawing.Size(1484, 950);
+            this.home_panel2.TabIndex = 18;
+            this.home_panel2.Load += new System.EventHandler(this.home_panel2_Load);
+            // 
+            // addTeacher2
+            // 
+            this.addTeacher2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.addTeacher2.ForeColor = System.Drawing.Color.White;
+            this.addTeacher2.Location = new System.Drawing.Point(433, 134);
+            this.addTeacher2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.addTeacher2.Name = "addTeacher2";
+            this.addTeacher2.Size = new System.Drawing.Size(1485, 946);
+            this.addTeacher2.TabIndex = 12;
+            // 
+            // addStudent1
+            // 
+            this.addStudent1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.addStudent1.ForeColor = System.Drawing.Color.White;
+            this.addStudent1.Location = new System.Drawing.Point(435, 134);
+            this.addStudent1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.addStudent1.Name = "addStudent1";
+            this.addStudent1.Size = new System.Drawing.Size(1485, 946);
+            this.addStudent1.TabIndex = 11;
+            // 
+            // addLecture2
+            // 
+            this.addLecture2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.addLecture2.ForeColor = System.Drawing.Color.White;
+            this.addLecture2.Location = new System.Drawing.Point(435, 134);
+            this.addLecture2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.addLecture2.Name = "addLecture2";
+            this.addLecture2.Size = new System.Drawing.Size(1485, 946);
+            this.addLecture2.TabIndex = 10;
+            // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(247, 231, 220);
-            this.panel5.Location = new System.Drawing.Point(328, 106);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(231)))), ((int)(((byte)(220)))));
+            this.panel5.Location = new System.Drawing.Point(437, 130);
+            this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1112, 773);
+            this.panel5.Size = new System.Drawing.Size(1483, 951);
             this.panel5.TabIndex = 17;
             // 
             // label3
@@ -176,8 +401,9 @@ namespace Student_Attendace_System.Dashbord
             // panel2
             // 
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 100);
+            this.panel2.Size = new System.Drawing.Size(267, 123);
             this.panel2.TabIndex = 13;
             // 
             // panel3
@@ -214,12 +440,13 @@ namespace Student_Attendace_System.Dashbord
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33F));
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1440, 878);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1920, 1081);
             this.tableLayoutPanel1.TabIndex = 12;
             // 
             // guna2ContextMenuStrip1
@@ -237,166 +464,45 @@ namespace Student_Attendace_System.Dashbord
             this.guna2ContextMenuStrip1.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             this.guna2ContextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // Add_Faculty_btn
+            // addTeacher
             // 
-            this.Add_Faculty_btn.AccessibleName = "add_faculty_btn";
-            this.Add_Faculty_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(235)))), ((int)(((byte)(218)))));
-            this.Add_Faculty_btn.FlatAppearance.BorderSize = 0;
-            this.Add_Faculty_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Add_Faculty_btn.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Add_Faculty_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
-            this.Add_Faculty_btn.Image = global::Student_Attendace_System.Properties.Resources.school;
-            this.Add_Faculty_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Add_Faculty_btn.Location = new System.Drawing.Point(38, 437);
-            this.Add_Faculty_btn.Margin = new System.Windows.Forms.Padding(4);
-            this.Add_Faculty_btn.Name = "Add_Faculty_btn";
-            this.Add_Faculty_btn.Size = new System.Drawing.Size(239, 54);
-            this.Add_Faculty_btn.TabIndex = 7;
-            this.Add_Faculty_btn.Text = "Add Faculty";
-            this.Add_Faculty_btn.UseVisualStyleBackColor = false;
-            this.Add_Faculty_btn.Click += new System.EventHandler(this.Add_Faculty_btn_Click);
+            this.addTeacher.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.addTeacher.ForeColor = System.Drawing.Color.White;
+            this.addTeacher.Location = new System.Drawing.Point(0, 0);
+            this.addTeacher.Margin = new System.Windows.Forms.Padding(2);
+            this.addTeacher.Name = "addTeacher";
+            this.addTeacher.Size = new System.Drawing.Size(1114, 684);
+            this.addTeacher.TabIndex = 0;
             // 
-            // add_student_btn
+            // sTudent1
             // 
-            this.add_student_btn.AccessibleName = "add_student_btn";
-            this.add_student_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(235)))), ((int)(((byte)(218)))));
-            this.add_student_btn.FlatAppearance.BorderSize = 0;
-            this.add_student_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.add_student_btn.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.add_student_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
-            this.add_student_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_student;
-            this.add_student_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.add_student_btn.Location = new System.Drawing.Point(38, 314);
-            this.add_student_btn.Margin = new System.Windows.Forms.Padding(4);
-            this.add_student_btn.Name = "add_student_btn";
-            this.add_student_btn.Size = new System.Drawing.Size(239, 54);
-            this.add_student_btn.TabIndex = 3;
-            this.add_student_btn.Text = "Add Student\r\n\r\n";
-            this.add_student_btn.UseVisualStyleBackColor = false;
-            this.add_student_btn.Click += new System.EventHandler(this.add_student_btn_Click_1);
+            this.sTudent1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.sTudent1.ForeColor = System.Drawing.Color.White;
+            this.sTudent1.Location = new System.Drawing.Point(0, 0);
+            this.sTudent1.Margin = new System.Windows.Forms.Padding(2);
+            this.sTudent1.Name = "sTudent1";
+            this.sTudent1.Size = new System.Drawing.Size(1114, 684);
+            this.sTudent1.TabIndex = 0;
             // 
-            // add_teacher_btn
+            // addLecture1
             // 
-            this.add_teacher_btn.AccessibleName = "add_teacher_btn";
-            this.add_teacher_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(235)))), ((int)(((byte)(218)))));
-            this.add_teacher_btn.FlatAppearance.BorderSize = 0;
-            this.add_teacher_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.add_teacher_btn.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.add_teacher_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
-            this.add_teacher_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_teacher;
-            this.add_teacher_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.add_teacher_btn.Location = new System.Drawing.Point(38, 375);
-            this.add_teacher_btn.Margin = new System.Windows.Forms.Padding(4);
-            this.add_teacher_btn.Name = "add_teacher_btn";
-            this.add_teacher_btn.Size = new System.Drawing.Size(239, 54);
-            this.add_teacher_btn.TabIndex = 6;
-            this.add_teacher_btn.Text = "Add Teacher";
-            this.add_teacher_btn.UseVisualStyleBackColor = false;
-            this.add_teacher_btn.Click += new System.EventHandler(this.add_teacher_btn_Click);
+            this.addLecture1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.addLecture1.ForeColor = System.Drawing.Color.White;
+            this.addLecture1.Location = new System.Drawing.Point(0, 0);
+            this.addLecture1.Margin = new System.Windows.Forms.Padding(2);
+            this.addLecture1.Name = "addLecture1";
+            this.addLecture1.Size = new System.Drawing.Size(1114, 684);
+            this.addLecture1.TabIndex = 0;
             // 
-            // leture_btn
+            // addTeacher1
             // 
-            this.leture_btn.AccessibleName = "leture_btn";
-            this.leture_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(235)))), ((int)(((byte)(218)))));
-            this.leture_btn.FlatAppearance.BorderSize = 0;
-            this.leture_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.leture_btn.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.leture_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
-            this.leture_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_meeting_room_100;
-            this.leture_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.leture_btn.Location = new System.Drawing.Point(38, 499);
-            this.leture_btn.Margin = new System.Windows.Forms.Padding(4);
-            this.leture_btn.Name = "leture_btn";
-            this.leture_btn.Padding = new System.Windows.Forms.Padding(0, 0, 8, 0);
-            this.leture_btn.Size = new System.Drawing.Size(239, 54);
-            this.leture_btn.TabIndex = 5;
-            this.leture_btn.Text = "Lecture Scheduling";
-            this.leture_btn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.leture_btn.UseVisualStyleBackColor = false;
-            this.leture_btn.Click += new System.EventHandler(this.leture_btn_Click);
-            // 
-            // uniLogoPicBox
-            // 
-            this.uniLogoPicBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.uniLogoPicBox.Image = global::Student_Attendace_System.Properties.Resources.university_of_kelaniya_logo;
-            this.uniLogoPicBox.Location = new System.Drawing.Point(3, 23);
-            this.uniLogoPicBox.Name = "uniLogoPicBox";
-            this.uniLogoPicBox.Size = new System.Drawing.Size(102, 105);
-            this.uniLogoPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.uniLogoPicBox.TabIndex = 14;
-            this.uniLogoPicBox.TabStop = false;
-            // 
-            // report_btn
-            // 
-            this.report_btn.AccessibleName = "report_btn";
-            this.report_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(235)))), ((int)(((byte)(218)))));
-            this.report_btn.FlatAppearance.BorderSize = 0;
-            this.report_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.report_btn.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.report_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
-            this.report_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_reports;
-            this.report_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.report_btn.Location = new System.Drawing.Point(38, 557);
-            this.report_btn.Margin = new System.Windows.Forms.Padding(0);
-            this.report_btn.Name = "report_btn";
-            this.report_btn.Padding = new System.Windows.Forms.Padding(0, 0, 35, 0);
-            this.report_btn.Size = new System.Drawing.Size(239, 54);
-            this.report_btn.TabIndex = 4;
-            this.report_btn.Text = "Reports";
-            this.report_btn.UseVisualStyleBackColor = false;
-            this.report_btn.Click += new System.EventHandler(this.report_btn_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Image = global::Student_Attendace_System.Properties.Resources.icons8_setting_50__1____Copy;
-            this.pictureBox3.Location = new System.Drawing.Point(960, 23);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(54, 57);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 4;
-            this.pictureBox3.TabStop = false;
-            // 
-            // dashbord_btn
-            // 
-            this.dashbord_btn.AccessibleName = "dashbord_btn";
-            this.dashbord_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
-            this.dashbord_btn.FlatAppearance.BorderSize = 0;
-            this.dashbord_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dashbord_btn.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dashbord_btn.ForeColor = System.Drawing.Color.White;
-            this.dashbord_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_dashboard_48;
-            this.dashbord_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.dashbord_btn.Location = new System.Drawing.Point(38, 207);
-            this.dashbord_btn.Margin = new System.Windows.Forms.Padding(4);
-            this.dashbord_btn.Name = "dashbord_btn";
-            this.dashbord_btn.Padding = new System.Windows.Forms.Padding(3, 0, 25, 0);
-            this.dashbord_btn.Size = new System.Drawing.Size(239, 45);
-            this.dashbord_btn.TabIndex = 2;
-            this.dashbord_btn.Text = "Dashbord\r\n\r\n";
-            this.dashbord_btn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.dashbord_btn.UseVisualStyleBackColor = false;
-            this.dashbord_btn.Click += new System.EventHandler(this.dashbord_btn_Click);
-            // 
-            // log_out_btn
-            // 
-            this.log_out_btn.AccessibleName = "log_out_btn";
-            this.log_out_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
-            this.log_out_btn.FlatAppearance.BorderSize = 0;
-            this.log_out_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.log_out_btn.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.log_out_btn.ForeColor = System.Drawing.Color.White;
-            this.log_out_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_logout;
-            this.log_out_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.log_out_btn.Location = new System.Drawing.Point(38, 783);
-            this.log_out_btn.Margin = new System.Windows.Forms.Padding(4);
-            this.log_out_btn.Name = "log_out_btn";
-            this.log_out_btn.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
-            this.log_out_btn.Size = new System.Drawing.Size(239, 47);
-            this.log_out_btn.TabIndex = 9;
-            this.log_out_btn.Text = "Log out\r\n\r\n\r\n\r\n";
-            this.log_out_btn.UseVisualStyleBackColor = false;
-            this.log_out_btn.Click += new System.EventHandler(this.log_out_btn_Click);
+            this.addTeacher1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.addTeacher1.ForeColor = System.Drawing.Color.White;
+            this.addTeacher1.Location = new System.Drawing.Point(0, 0);
+            this.addTeacher1.Margin = new System.Windows.Forms.Padding(2);
+            this.addTeacher1.Name = "addTeacher1";
+            this.addTeacher1.Size = new System.Drawing.Size(1114, 684);
+            this.addTeacher1.TabIndex = 0;
             // 
             // logo_pic_box
             // 
@@ -422,100 +528,24 @@ namespace Student_Attendace_System.Dashbord
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // home_panel2
-            // 
-            this.home_panel2.BackColor = System.Drawing.Color.White;
-            this.home_panel2.Location = new System.Drawing.Point(326, 106);
-            this.home_panel2.Name = "home_panel2";
-            this.home_panel2.Size = new System.Drawing.Size(1113, 772);
-            this.home_panel2.TabIndex = 18;
-            // 
-            // addTeacher2
-            // 
-            this.addTeacher2.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.addTeacher2.ForeColor = System.Drawing.Color.White;
-            this.addTeacher2.Location = new System.Drawing.Point(325, 109);
-            this.addTeacher2.Margin = new System.Windows.Forms.Padding(2);
-            this.addTeacher2.Name = "addTeacher2";
-            this.addTeacher2.Size = new System.Drawing.Size(1114, 769);
-            this.addTeacher2.TabIndex = 12;
-            // 
-            // addStudent1
-            // 
-            this.addStudent1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.addStudent1.ForeColor = System.Drawing.Color.White;
-            this.addStudent1.Location = new System.Drawing.Point(326, 109);
-            this.addStudent1.Margin = new System.Windows.Forms.Padding(2);
-            this.addStudent1.Name = "addStudent1";
-            this.addStudent1.Size = new System.Drawing.Size(1114, 769);
-            this.addStudent1.TabIndex = 11;
-            // 
-            // addLecture2
-            // 
-            this.addLecture2.ForeColor = System.Drawing.Color.White;
-            this.addLecture2.Location = new System.Drawing.Point(326, 109);
-            this.addLecture2.Margin = new System.Windows.Forms.Padding(2);
-            this.addLecture2.Name = "addLecture2";
-            this.addLecture2.Size = new System.Drawing.Size(1114, 769);
-            this.addLecture2.TabIndex = 10;
-            // 
-            // addTeacher
-            // 
-            this.addTeacher.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.addTeacher.ForeColor = System.Drawing.Color.White;
-            this.addTeacher.Location = new System.Drawing.Point(0, 0);
-            this.addTeacher.Margin = new System.Windows.Forms.Padding(2);
-            this.addTeacher.Name = "addTeacher";
-            this.addTeacher.Size = new System.Drawing.Size(1114, 684);
-            this.addTeacher.TabIndex = 0;
-            // 
-            // sTudent1
-            // 
-            this.sTudent1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.sTudent1.ForeColor = System.Drawing.Color.White;
-            this.sTudent1.Location = new System.Drawing.Point(0, 0);
-            this.sTudent1.Margin = new System.Windows.Forms.Padding(2);
-            this.sTudent1.Name = "sTudent1";
-            this.sTudent1.Size = new System.Drawing.Size(1114, 684);
-            this.sTudent1.TabIndex = 0;
-            // 
-            // addLecture1
-            // 
-            this.addLecture1.ForeColor = System.Drawing.Color.White;
-            this.addLecture1.Location = new System.Drawing.Point(0, 0);
-            this.addLecture1.Margin = new System.Windows.Forms.Padding(2);
-            this.addLecture1.Name = "addLecture1";
-            this.addLecture1.Size = new System.Drawing.Size(1114, 684);
-            this.addLecture1.TabIndex = 0;
-            // 
-            // addTeacher1
-            // 
-            this.addTeacher1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.addTeacher1.ForeColor = System.Drawing.Color.White;
-            this.addTeacher1.Location = new System.Drawing.Point(0, 0);
-            this.addTeacher1.Margin = new System.Windows.Forms.Padding(2);
-            this.addTeacher1.Name = "addTeacher1";
-            this.addTeacher1.Size = new System.Drawing.Size(1114, 684);
-            this.addTeacher1.TabIndex = 0;
-            // 
             // Dashbord_window
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1440, 878);
+            this.ClientSize = new System.Drawing.Size(1920, 1081);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Dashbord_window";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.uniLogoPicBox)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.uniLogoPicBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo_pic_box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -562,5 +592,6 @@ namespace Student_Attendace_System.Dashbord
         private Panel panel5;
         private Guna.UI2.WinForms.Guna2ContextMenuStrip guna2ContextMenuStrip1;
         private Home_panel home_panel2;
+        private Button subject_btn;
     }
 }

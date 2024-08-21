@@ -140,5 +140,21 @@ namespace Student_Attendace_System.Dashbord
         {
 
         }
+
+        private void home_panel2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void subject_btn_Click(object sender, EventArgs e)
+        {
+            addTeacher2.Visible = false;
+            addStudent1.Visible = false;
+            addLecture2.Visible = false;
+            home_panel2.Visible = false;
+
+            var addSubject = new PopUpForms.AddNewSubject();
+            addSubject.ShowDialog();
+        }
     }
 }

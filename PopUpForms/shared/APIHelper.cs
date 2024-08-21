@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Drawing;
 using System.Net.Http;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
@@ -399,7 +401,7 @@ namespace StudentsManagementSystemForm.shared
         }
 
         // Method to create new lecture
-        public static async Task<string> PostLecture(string facultyName, string degreeProgram, string academicYear, string subjectCode, string lecturersID, string lectureHall, string lectureDay, string lectureStart, string lectureEnd)
+        public static async Task<string> PostLecture(string facultyName, int degreeProgram, int academicYear, string subjectCode, int lecturersID, string lectureHall, string lectureDay, string lectureStart, string lectureEnd)
         {
             var inputData = new
             {
@@ -422,6 +424,7 @@ namespace StudentsManagementSystemForm.shared
 
             using (HttpClient client = new HttpClient())
             {
+                Console.WriteLine("create client");
                 try
                 {
                     string postURL = $"{baseURL}/lecture/create"; // Correct URL for adding a new Lecture
@@ -437,7 +440,7 @@ namespace StudentsManagementSystemForm.shared
                 catch (Exception ex)
                 {
                     Console.WriteLine("Error: " + ex.Message);
-                    return string.Empty;
+                    return "Error";
                 }
             }
         }

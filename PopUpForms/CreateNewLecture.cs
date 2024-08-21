@@ -16,6 +16,7 @@ namespace Student_Attendace_System.PopUpForms
         public CreateNewLecture()
         {
             InitializeComponent();
+
         }
        public void clearForm()
         {
@@ -33,14 +34,26 @@ namespace Student_Attendace_System.PopUpForms
             
             // Get the values from the input textboxes
             string facultyName = facName.Text;
-            string degreeProgram = degname.Text;
-            string academicYear = acadYear.Text;
+            int degreeProgram;
+            int academicYear; 
             string subjectCode = subCode.Text;
-            string lecturersID = lecID.Text;
+            int lecturersID;
             string lectureHall = lecHall.Text;
             string lectureDay = lecDay.Text;
             string lectureStart = lecStart.Text;
             string lectureEnd = lecEnd.Text;
+
+
+            if (!int.TryParse(degname.Text, out degreeProgram) ||
+    !int.TryParse(acadYear.Text, out academicYear) ||
+    !int.TryParse(lecID.Text, out lecturersID))
+            {
+                MessageBox.Show("Please enter valid numeric values for Degree Program, Academic Year, and Lecturer ID.");
+                return;
+            }
+             degreeProgram = int.Parse(degname.Text);
+             academicYear = int.Parse(acadYear.Text);
+            lecturersID = int.Parse(lecID.Text);
 
             // Log the input values for debugging
             Console.WriteLine("Posting Lecture Details:");
@@ -54,9 +67,10 @@ namespace Student_Attendace_System.PopUpForms
             Console.WriteLine("Lecture Start: " + lectureStart);
             Console.WriteLine("Lecture End: " + lectureEnd);
 
+
             // Post the values to the API
             var response = await APIHelper.PostLecture(facultyName, degreeProgram, academicYear, subjectCode, lecturersID, lectureHall, lectureDay, lectureStart, lectureEnd);
-
+            Console.WriteLine(response);
             // Show the popup window
             // Show the popup window
             if (response == "SuccesFullyAdded")
