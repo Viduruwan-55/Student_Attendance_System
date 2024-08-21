@@ -211,6 +211,43 @@ namespace Student_Attendace_System.Dashbord
             dataView.DataSource = filteredData;
 
         }
+
+        private void dataView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                if (dataView.Columns[e.ColumnIndex].Name == "btnUpdate")
+                {
+                    UpdateRow(e.RowIndex);
+                }
+                else if (dataView.Columns[e.ColumnIndex].Name == "btnDelete")
+                {
+                    if (MessageBox.Show("Are you sure to delete this Data?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    {
+                        DeleteRow(e.RowIndex);
+                    }
+                }
+            }
+        }
+        private void UpdateRow(int rowIndex)
+        {
+            DataGridViewRow row = dataView.Rows[rowIndex];
+            string Id = (string)row.Cells["stdId"].Value;
+
+
+            var update = new PopUpForms.UpdateStudent(Id);
+            update.ShowDialog();
+
+        }
+        private async void DeleteRow(int rowIndex)
+        {
+            DataGridViewRow row = dataView.Rows[rowIndex];
+            string id = (string)row.Cells["stdId"].Value;
+            students = await Get<StudentData>($"{baseurl}/student/remove/{id}");
+
+
+        
+        }
     }
 }
 

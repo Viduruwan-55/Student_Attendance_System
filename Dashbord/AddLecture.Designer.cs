@@ -37,6 +37,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.create_lecture_btn = new System.Windows.Forms.Button();
             this.lecture_lb = new System.Windows.Forms.Label();
             this.search_btn = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -52,7 +53,6 @@
             this.showAll_btn = new System.Windows.Forms.Button();
             this.dataView = new Guna.UI2.WinForms.Guna2DataGridView();
             this.back_btn = new System.Windows.Forms.Button();
-            this.create_lecture_btn = new System.Windows.Forms.Button();
             this.chekBox = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.lecId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.faculty = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -75,20 +75,35 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
             this.panel1.Controls.Add(this.create_lecture_btn);
             this.panel1.Controls.Add(this.lecture_lb);
-            this.panel1.Location = new System.Drawing.Point(28, 30);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Location = new System.Drawing.Point(21, 24);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1409, 62);
+            this.panel1.Size = new System.Drawing.Size(1057, 50);
             this.panel1.TabIndex = 0;
+            // 
+            // create_lecture_btn
+            // 
+            this.create_lecture_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
+            this.create_lecture_btn.FlatAppearance.BorderSize = 0;
+            this.create_lecture_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.create_lecture_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_list_50;
+            this.create_lecture_btn.Location = new System.Drawing.Point(16, 3);
+            this.create_lecture_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.create_lecture_btn.Name = "create_lecture_btn";
+            this.create_lecture_btn.Size = new System.Drawing.Size(40, 44);
+            this.create_lecture_btn.TabIndex = 15;
+            this.create_lecture_btn.UseVisualStyleBackColor = false;
+            this.create_lecture_btn.Click += new System.EventHandler(this.create_lecture_btn_Click);
             // 
             // lecture_lb
             // 
             this.lecture_lb.AutoSize = true;
             this.lecture_lb.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lecture_lb.ForeColor = System.Drawing.Color.White;
-            this.lecture_lb.Location = new System.Drawing.Point(136, 2);
+            this.lecture_lb.Location = new System.Drawing.Point(102, 2);
+            this.lecture_lb.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lecture_lb.Name = "lecture_lb";
-            this.lecture_lb.Size = new System.Drawing.Size(487, 42);
+            this.lecture_lb.Size = new System.Drawing.Size(393, 36);
             this.lecture_lb.TabIndex = 1;
             this.lecture_lb.Text = "CREATE A NEW LECTURE";
             // 
@@ -97,20 +112,20 @@
             this.search_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
             this.search_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.search_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.search_btn.Location = new System.Drawing.Point(595, 133);
-            this.search_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.search_btn.Location = new System.Drawing.Point(446, 108);
+            this.search_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.search_btn.Name = "search_btn";
-            this.search_btn.Size = new System.Drawing.Size(176, 38);
+            this.search_btn.Size = new System.Drawing.Size(132, 31);
             this.search_btn.TabIndex = 2;
             this.search_btn.Text = "Search Subject\r\n";
             this.search_btn.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(1019, 241);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Location = new System.Drawing.Point(764, 196);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(8, 7);
+            this.button2.Size = new System.Drawing.Size(6, 6);
             this.button2.TabIndex = 3;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
@@ -119,10 +134,10 @@
             // 
             this.search_txtBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.search_txtBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.search_txtBox.Location = new System.Drawing.Point(28, 133);
-            this.search_txtBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.search_txtBox.Location = new System.Drawing.Point(21, 108);
+            this.search_txtBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.search_txtBox.Name = "search_txtBox";
-            this.search_txtBox.Size = new System.Drawing.Size(529, 34);
+            this.search_txtBox.Size = new System.Drawing.Size(398, 29);
             this.search_txtBox.TabIndex = 4;
             this.search_txtBox.Text = "Enter Lecture Id";
             // 
@@ -137,10 +152,10 @@
             this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(595, 247);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBox1.Location = new System.Drawing.Point(446, 201);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(176, 36);
+            this.comboBox1.Size = new System.Drawing.Size(133, 29);
             this.comboBox1.TabIndex = 6;
             this.comboBox1.Text = "Year";
             // 
@@ -149,10 +164,10 @@
             this.comboBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(28, 247);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBox2.Location = new System.Drawing.Point(21, 201);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(529, 36);
+            this.comboBox2.Size = new System.Drawing.Size(398, 29);
             this.comboBox2.TabIndex = 7;
             this.comboBox2.Text = "Degree";
             // 
@@ -161,9 +176,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(23, 213);
+            this.label2.Location = new System.Drawing.Point(17, 173);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(155, 25);
+            this.label2.Size = new System.Drawing.Size(126, 20);
             this.label2.TabIndex = 9;
             this.label2.Text = "Degree Program";
             // 
@@ -172,9 +188,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(589, 213);
+            this.label3.Location = new System.Drawing.Point(442, 173);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(145, 25);
+            this.label3.Size = new System.Drawing.Size(117, 20);
             this.label3.TabIndex = 10;
             this.label3.Text = "Academic Year";
             // 
@@ -183,10 +200,10 @@
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(804, 242);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button3.Location = new System.Drawing.Point(603, 197);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(92, 38);
+            this.button3.Size = new System.Drawing.Size(69, 31);
             this.button3.TabIndex = 11;
             this.button3.Text = "Filter";
             this.button3.UseVisualStyleBackColor = false;
@@ -196,10 +213,10 @@
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(1261, 247);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button4.Location = new System.Drawing.Point(946, 201);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(176, 38);
+            this.button4.Size = new System.Drawing.Size(132, 31);
             this.button4.TabIndex = 12;
             this.button4.Text = "Bulk Delete\r\n\r\n";
             this.button4.UseVisualStyleBackColor = false;
@@ -209,10 +226,10 @@
             this.showAll_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
             this.showAll_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.showAll_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showAll_btn.Location = new System.Drawing.Point(787, 133);
-            this.showAll_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.showAll_btn.Location = new System.Drawing.Point(590, 108);
+            this.showAll_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.showAll_btn.Name = "showAll_btn";
-            this.showAll_btn.Size = new System.Drawing.Size(49, 38);
+            this.showAll_btn.Size = new System.Drawing.Size(37, 31);
             this.showAll_btn.TabIndex = 18;
             this.showAll_btn.Text = "All";
             this.showAll_btn.UseVisualStyleBackColor = false;
@@ -227,6 +244,7 @@
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(222)))), ((int)(((byte)(33)))));
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
             this.dataView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
@@ -261,8 +279,7 @@
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataView.DefaultCellStyle = dataGridViewCellStyle4;
             this.dataView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dataView.Location = new System.Drawing.Point(28, 320);
-            this.dataView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataView.Location = new System.Drawing.Point(21, 259);
             this.dataView.Name = "dataView";
             this.dataView.ReadOnly = true;
             this.dataView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -282,7 +299,7 @@
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(222)))), ((int)(((byte)(33)))));
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
             this.dataView.RowsDefaultCellStyle = dataGridViewCellStyle6;
-            this.dataView.Size = new System.Drawing.Size(1409, 428);
+            this.dataView.Size = new System.Drawing.Size(1057, 348);
             this.dataView.TabIndex = 22;
             this.dataView.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dataView.ThemeStyle.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -313,27 +330,13 @@
             this.back_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.back_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.back_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_back_30;
-            this.back_btn.Location = new System.Drawing.Point(1329, 775);
-            this.back_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.back_btn.Location = new System.Drawing.Point(997, 630);
+            this.back_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.back_btn.Name = "back_btn";
-            this.back_btn.Size = new System.Drawing.Size(108, 42);
+            this.back_btn.Size = new System.Drawing.Size(81, 34);
             this.back_btn.TabIndex = 14;
             this.back_btn.UseVisualStyleBackColor = false;
             this.back_btn.Click += new System.EventHandler(this.back_btn_Click);
-            // 
-            // create_lecture_btn
-            // 
-            this.create_lecture_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
-            this.create_lecture_btn.FlatAppearance.BorderSize = 0;
-            this.create_lecture_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.create_lecture_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_list_50;
-            this.create_lecture_btn.Location = new System.Drawing.Point(21, 4);
-            this.create_lecture_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.create_lecture_btn.Name = "create_lecture_btn";
-            this.create_lecture_btn.Size = new System.Drawing.Size(53, 54);
-            this.create_lecture_btn.TabIndex = 15;
-            this.create_lecture_btn.UseVisualStyleBackColor = false;
-            this.create_lecture_btn.Click += new System.EventHandler(this.create_lecture_btn_Click);
             // 
             // chekBox
             // 
@@ -343,7 +346,7 @@
             this.chekBox.MinimumWidth = 10;
             this.chekBox.Name = "chekBox";
             this.chekBox.ReadOnly = true;
-            this.chekBox.Width = 23;
+            this.chekBox.Width = 20;
             // 
             // lecId
             // 
@@ -365,6 +368,7 @@
             // 
             // degree
             // 
+            this.degree.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.degree.FillWeight = 35.49452F;
             this.degree.HeaderText = "Degree";
             this.degree.MinimumWidth = 6;
@@ -372,6 +376,7 @@
             this.degree.ReadOnly = true;
             this.degree.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.degree.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.degree.Width = 150;
             // 
             // academic_year
             // 
@@ -383,6 +388,7 @@
             // 
             // subject_code
             // 
+            this.subject_code.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.subject_code.FillWeight = 35.49452F;
             this.subject_code.HeaderText = "Subject code";
             this.subject_code.MinimumWidth = 6;
@@ -440,6 +446,7 @@
             this.updateBtn.Name = "updateBtn";
             this.updateBtn.ReadOnly = true;
             this.updateBtn.Text = "update";
+            this.updateBtn.UseColumnTextForButtonValue = true;
             this.updateBtn.Width = 70;
             // 
             // deletBtn
@@ -451,11 +458,12 @@
             this.deletBtn.Name = "deletBtn";
             this.deletBtn.ReadOnly = true;
             this.deletBtn.Text = "Delete";
+            this.deletBtn.UseColumnTextForButtonValue = true;
             this.deletBtn.Width = 70;
             // 
             // AddLecture
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Controls.Add(this.showAll_btn);
@@ -472,9 +480,9 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataView);
             this.ForeColor = System.Drawing.Color.White;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AddLecture";
-            this.Size = new System.Drawing.Size(1485, 842);
+            this.Size = new System.Drawing.Size(1114, 684);
             this.Load += new System.EventHandler(this.AddLecture_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

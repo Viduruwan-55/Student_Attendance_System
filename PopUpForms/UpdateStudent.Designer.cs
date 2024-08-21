@@ -353,6 +353,7 @@ namespace Student_Attendace_System.PopUpForms
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "UpdateStudent";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.header.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

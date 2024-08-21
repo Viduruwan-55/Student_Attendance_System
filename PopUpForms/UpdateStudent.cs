@@ -13,9 +13,10 @@ namespace Student_Attendace_System.PopUpForms
 {
     public partial class UpdateStudent : Form
     {
-        public UpdateStudent()
+        public UpdateStudent(string id)
         {
             InitializeComponent();
+            StNum.Text = id;
         }
         public void clearForm()
         {

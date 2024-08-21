@@ -130,14 +130,27 @@ namespace Student_Attendace_System.Dashbord
         {
             DataGridViewRow row = dataView.Rows[rowIndex];
             int id = (int)row.Cells["teacherId"].Value;
-            data = await Get($"{baseurl}/lecture/remove/{id}");
-
-
+            data = await Get($"{baseurl}/teacher/remove/{id}");
 
         }
 
         private void dataView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+
+            if (e.RowIndex >= 0)
+            {
+                if (dataView.Columns[e.ColumnIndex].Name == "updateBtn")
+                {
+                    UpdateRow(e.RowIndex);
+                }
+                else if (dataView.Columns[e.ColumnIndex].Name == "deleteBtn")
+                {
+                    if (MessageBox.Show("Are you sure to delete this Data?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    {
+                        DeleteRow(e.RowIndex);
+                    }
+                }
+            }
 
         }
     }

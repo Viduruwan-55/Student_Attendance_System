@@ -259,6 +259,7 @@ namespace Student_Attendace_System.Dashbord
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
             this.dataView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.None;
+            this.dataView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
@@ -268,7 +269,7 @@ namespace Student_Attendace_System.Dashbord
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dataView.ColumnHeadersHeight = 30;
+            this.dataView.ColumnHeadersHeight = 40;
             this.dataView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.dataView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.chekBox,
@@ -323,7 +324,7 @@ namespace Student_Attendace_System.Dashbord
             this.dataView.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataView.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.dataView.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.dataView.ThemeStyle.HeaderStyle.Height = 30;
+            this.dataView.ThemeStyle.HeaderStyle.Height = 40;
             this.dataView.ThemeStyle.ReadOnly = true;
             this.dataView.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.dataView.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
@@ -398,6 +399,8 @@ namespace Student_Attendace_System.Dashbord
             this.updateBtn.Name = "updateBtn";
             this.updateBtn.ReadOnly = true;
             this.updateBtn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.updateBtn.Text = "Update";
+            this.updateBtn.UseColumnTextForButtonValue = true;
             this.updateBtn.Width = 70;
             // 
             // deleteBtn
@@ -409,6 +412,8 @@ namespace Student_Attendace_System.Dashbord
             this.deleteBtn.Name = "deleteBtn";
             this.deleteBtn.ReadOnly = true;
             this.deleteBtn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.deleteBtn.Text = "Delete";
+            this.deleteBtn.UseColumnTextForButtonValue = true;
             this.deleteBtn.Width = 70;
             // 
             // AddTeacher
