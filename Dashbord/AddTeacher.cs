@@ -53,11 +53,11 @@ namespace Student_Attendace_System.Dashbord
         private async void Teacher_load(object sender, EventArgs e)
         {
            data = await Get($"{baseurl}/teacher/getAll");
-           teacherId.DataPropertyName = "id";
+          /* teacherId.DataPropertyName = "id";
            TeacherName.DataPropertyName = "name";
            department.DataPropertyName = "department";
-            email.DataPropertyName = "email";
-            dataView.DataSource = data;
+            email.DataPropertyName = "email";*/
+           // dataView.DataSource = data;
 
             teacherId.DataPropertyName = nameof(ViewModel.teacherId);
             TeacherName.DataPropertyName = nameof(ViewModel.teacherName);

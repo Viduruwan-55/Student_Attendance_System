@@ -69,8 +69,8 @@ namespace Student_Attendace_System.Dashbord
             this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Faculty_Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.department_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.starting_yr = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.image = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.starting_yr = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnUpdate = new System.Windows.Forms.DataGridViewButtonColumn();
             this.btnDelete = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel1.SuspendLayout();
@@ -83,7 +83,7 @@ namespace Student_Attendace_System.Dashbord
             this.panel1.Controls.Add(this.add_std_btn);
             this.panel1.Controls.Add(this.student_lb);
             this.panel1.Location = new System.Drawing.Point(21, 24);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1057, 50);
             this.panel1.TabIndex = 0;
@@ -95,7 +95,7 @@ namespace Student_Attendace_System.Dashbord
             this.add_std_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.add_std_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_list_50;
             this.add_std_btn.Location = new System.Drawing.Point(15, 2);
-            this.add_std_btn.Margin = new System.Windows.Forms.Padding(2);
+            this.add_std_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.add_std_btn.Name = "add_std_btn";
             this.add_std_btn.Size = new System.Drawing.Size(40, 44);
             this.add_std_btn.TabIndex = 15;
@@ -120,7 +120,7 @@ namespace Student_Attendace_System.Dashbord
             this.serch_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.serch_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.serch_btn.Location = new System.Drawing.Point(446, 108);
-            this.serch_btn.Margin = new System.Windows.Forms.Padding(2);
+            this.serch_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.serch_btn.Name = "serch_btn";
             this.serch_btn.Size = new System.Drawing.Size(132, 31);
             this.serch_btn.TabIndex = 2;
@@ -131,7 +131,7 @@ namespace Student_Attendace_System.Dashbord
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(764, 196);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(6, 6);
             this.button2.TabIndex = 3;
@@ -166,7 +166,7 @@ namespace Student_Attendace_System.Dashbord
             this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(446, 201);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(133, 29);
             this.comboBox1.TabIndex = 6;
@@ -179,7 +179,7 @@ namespace Student_Attendace_System.Dashbord
             this.comboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(21, 201);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(398, 29);
             this.comboBox2.TabIndex = 7;
@@ -216,7 +216,7 @@ namespace Student_Attendace_System.Dashbord
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(603, 197);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(69, 31);
             this.button3.TabIndex = 11;
@@ -230,7 +230,7 @@ namespace Student_Attendace_System.Dashbord
             this.back_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.back_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_back_30;
             this.back_btn.Location = new System.Drawing.Point(997, 630);
-            this.back_btn.Margin = new System.Windows.Forms.Padding(2);
+            this.back_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.back_btn.Name = "back_btn";
             this.back_btn.Size = new System.Drawing.Size(81, 34);
             this.back_btn.TabIndex = 14;
@@ -243,7 +243,7 @@ namespace Student_Attendace_System.Dashbord
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(965, 208);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(112, 27);
             this.button4.TabIndex = 15;
@@ -265,7 +265,7 @@ namespace Student_Attendace_System.Dashbord
             this.showAll_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.showAll_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showAll_btn.Location = new System.Drawing.Point(594, 108);
-            this.showAll_btn.Margin = new System.Windows.Forms.Padding(2);
+            this.showAll_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.showAll_btn.Name = "showAll_btn";
             this.showAll_btn.Size = new System.Drawing.Size(37, 31);
             this.showAll_btn.TabIndex = 17;
@@ -290,6 +290,10 @@ namespace Student_Attendace_System.Dashbord
             // 
             // dataView
             // 
+            this.dataView.AllowUserToAddRows = false;
+            this.dataView.AllowUserToDeleteRows = false;
+            this.dataView.AllowUserToOrderColumns = true;
+            this.dataView.AllowUserToResizeColumns = false;
             this.dataView.AllowUserToResizeRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -297,6 +301,7 @@ namespace Student_Attendace_System.Dashbord
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(222)))), ((int)(((byte)(33)))));
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
             this.dataView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.None;
             this.dataView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -307,7 +312,7 @@ namespace Student_Attendace_System.Dashbord
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dataView.ColumnHeadersHeight = 45;
+            this.dataView.ColumnHeadersHeight = 50;
             this.dataView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.dataView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.chekBox,
@@ -318,8 +323,8 @@ namespace Student_Attendace_System.Dashbord
             this.email,
             this.Faculty_Id,
             this.department_id,
-            this.starting_yr,
             this.image,
+            this.starting_yr,
             this.btnUpdate,
             this.btnDelete});
             this.dataView.ContextMenuStrip = this.guna2ContextMenuStrip1;
@@ -333,7 +338,7 @@ namespace Student_Attendace_System.Dashbord
             this.dataView.DefaultCellStyle = dataGridViewCellStyle4;
             this.dataView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnKeystroke;
             this.dataView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dataView.Location = new System.Drawing.Point(21, 267);
+            this.dataView.Location = new System.Drawing.Point(20, 262);
             this.dataView.MaximumSize = new System.Drawing.Size(1057, 349);
             this.dataView.Name = "dataView";
             this.dataView.ReadOnly = true;
@@ -369,7 +374,7 @@ namespace Student_Attendace_System.Dashbord
             this.dataView.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataView.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.dataView.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.dataView.ThemeStyle.HeaderStyle.Height = 45;
+            this.dataView.ThemeStyle.HeaderStyle.Height = 50;
             this.dataView.ThemeStyle.ReadOnly = true;
             this.dataView.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.dataView.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
@@ -381,143 +386,139 @@ namespace Student_Attendace_System.Dashbord
             // 
             // chekBox
             // 
-            this.chekBox.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.chekBox.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.chekBox.FillWeight = 152.2842F;
-            this.chekBox.Frozen = true;
             this.chekBox.HeaderText = "";
             this.chekBox.MinimumWidth = 10;
             this.chekBox.Name = "chekBox";
             this.chekBox.ReadOnly = true;
+            this.chekBox.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.chekBox.Width = 20;
             // 
             // stdId
             // 
-            this.stdId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.stdId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.stdId.FillWeight = 94.19064F;
-            this.stdId.Frozen = true;
             this.stdId.HeaderText = "Std Id";
             this.stdId.MinimumWidth = 6;
             this.stdId.Name = "stdId";
             this.stdId.ReadOnly = true;
             this.stdId.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.stdId.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.stdId.Width = 33;
+            this.stdId.Width = 120;
             // 
             // StdName
             // 
-            this.StdName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.StdName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.StdName.FillWeight = 94.19064F;
-            this.StdName.Frozen = true;
             this.StdName.HeaderText = "Student Name";
             this.StdName.MinimumWidth = 6;
             this.StdName.Name = "StdName";
             this.StdName.ReadOnly = true;
-            this.StdName.Width = 110;
+            this.StdName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.StdName.Width = 200;
             // 
             // degreeId
             // 
-            this.degreeId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.degreeId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.degreeId.FillWeight = 94.19064F;
-            this.degreeId.Frozen = true;
             this.degreeId.HeaderText = "Degree";
             this.degreeId.MinimumWidth = 6;
             this.degreeId.Name = "degreeId";
             this.degreeId.ReadOnly = true;
             this.degreeId.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.degreeId.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.degreeId.Width = 57;
+            this.degreeId.Width = 200;
             // 
             // special_Id
             // 
-            this.special_Id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.special_Id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.special_Id.FillWeight = 94.19064F;
-            this.special_Id.Frozen = true;
             this.special_Id.HeaderText = "Specialization";
             this.special_Id.MinimumWidth = 6;
             this.special_Id.Name = "special_Id";
             this.special_Id.ReadOnly = true;
-            this.special_Id.Width = 117;
+            this.special_Id.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.special_Id.Width = 150;
             // 
             // email
             // 
-            this.email.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.email.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.email.FillWeight = 94.19064F;
-            this.email.Frozen = true;
             this.email.HeaderText = "Email";
             this.email.MinimumWidth = 6;
             this.email.Name = "email";
             this.email.ReadOnly = true;
-            this.email.Width = 66;
+            this.email.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.email.Width = 150;
             // 
             // Faculty_Id
             // 
-            this.Faculty_Id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.Faculty_Id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.Faculty_Id.FillWeight = 94.19064F;
-            this.Faculty_Id.Frozen = true;
             this.Faculty_Id.HeaderText = "Faculty";
             this.Faculty_Id.MinimumWidth = 6;
             this.Faculty_Id.Name = "Faculty_Id";
             this.Faculty_Id.ReadOnly = true;
-            this.Faculty_Id.Width = 76;
+            this.Faculty_Id.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Faculty_Id.Width = 130;
             // 
             // department_id
             // 
-            this.department_id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.department_id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.department_id.FillWeight = 94.19064F;
-            this.department_id.Frozen = true;
             this.department_id.HeaderText = "Department";
             this.department_id.MinimumWidth = 6;
             this.department_id.Name = "department_id";
             this.department_id.ReadOnly = true;
-            this.department_id.Width = 106;
-            // 
-            // starting_yr
-            // 
-            this.starting_yr.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.starting_yr.DefaultCellStyle = dataGridViewCellStyle3;
-            this.starting_yr.FillWeight = 94.19064F;
-            this.starting_yr.Frozen = true;
-            this.starting_yr.HeaderText = "Starting year";
-            this.starting_yr.MinimumWidth = 6;
-            this.starting_yr.Name = "starting_yr";
-            this.starting_yr.ReadOnly = true;
-            this.starting_yr.Width = 102;
+            this.department_id.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.department_id.Width = 120;
             // 
             // image
             // 
-            this.image.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.image.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.image.FillWeight = 94.19064F;
-            this.image.Frozen = true;
             this.image.HeaderText = "Image Location";
             this.image.MinimumWidth = 6;
             this.image.Name = "image";
             this.image.ReadOnly = true;
-            this.image.Width = 116;
+            this.image.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // starting_yr
+            // 
+            this.starting_yr.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.starting_yr.DefaultCellStyle = dataGridViewCellStyle3;
+            this.starting_yr.FillWeight = 94.19064F;
+            this.starting_yr.HeaderText = "Starting year";
+            this.starting_yr.MinimumWidth = 6;
+            this.starting_yr.Name = "starting_yr";
+            this.starting_yr.ReadOnly = true;
+            this.starting_yr.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.starting_yr.Width = 85;
             // 
             // btnUpdate
             // 
-            this.btnUpdate.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.btnUpdate.Frozen = true;
+            this.btnUpdate.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.btnUpdate.HeaderText = "Update";
             this.btnUpdate.MinimumWidth = 6;
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.ReadOnly = true;
+            this.btnUpdate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseColumnTextForButtonValue = true;
-            this.btnUpdate.Width = 57;
+            this.btnUpdate.Width = 70;
             // 
             // btnDelete
             // 
-            this.btnDelete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.btnDelete.Frozen = true;
+            this.btnDelete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.btnDelete.HeaderText = "Delete";
             this.btnDelete.MinimumWidth = 6;
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.ReadOnly = true;
+            this.btnDelete.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseColumnTextForButtonValue = true;
-            this.btnDelete.Width = 53;
+            this.btnDelete.Width = 70;
             // 
             // AddStudent
             // 
@@ -539,7 +540,7 @@ namespace Student_Attendace_System.Dashbord
             this.Controls.Add(this.serch_btn);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.White;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AddStudent";
             this.Size = new System.Drawing.Size(1164, 745);
             this.panel1.ResumeLayout(false);
@@ -592,8 +593,8 @@ namespace Student_Attendace_System.Dashbord
         private DataGridViewTextBoxColumn email;
         private DataGridViewTextBoxColumn Faculty_Id;
         private DataGridViewTextBoxColumn department_id;
-        private DataGridViewTextBoxColumn starting_yr;
         private DataGridViewTextBoxColumn image;
+        private DataGridViewTextBoxColumn starting_yr;
         private DataGridViewButtonColumn btnUpdate;
         private DataGridViewButtonColumn btnDelete;
     }

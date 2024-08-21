@@ -58,8 +58,8 @@ namespace Student_Attendace_System.Dashbord
             this.chekBox = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.teacherId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TeacherName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.department = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.department = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.updateBtn = new System.Windows.Forms.DataGridViewButtonColumn();
             this.deleteBtn = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel1.SuspendLayout();
@@ -73,7 +73,7 @@ namespace Student_Attendace_System.Dashbord
             this.panel1.Controls.Add(this.create_lecture_btn);
             this.panel1.Controls.Add(this.lecture_lb);
             this.panel1.Location = new System.Drawing.Point(21, 24);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1057, 50);
             this.panel1.TabIndex = 0;
@@ -85,7 +85,7 @@ namespace Student_Attendace_System.Dashbord
             this.create_lecture_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.create_lecture_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_list_50;
             this.create_lecture_btn.Location = new System.Drawing.Point(16, 3);
-            this.create_lecture_btn.Margin = new System.Windows.Forms.Padding(2);
+            this.create_lecture_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.create_lecture_btn.Name = "create_lecture_btn";
             this.create_lecture_btn.Size = new System.Drawing.Size(40, 44);
             this.create_lecture_btn.TabIndex = 15;
@@ -110,7 +110,7 @@ namespace Student_Attendace_System.Dashbord
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(446, 108);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(132, 31);
             this.button1.TabIndex = 2;
@@ -121,7 +121,7 @@ namespace Student_Attendace_System.Dashbord
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(764, 196);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(6, 6);
             this.button2.TabIndex = 3;
@@ -133,7 +133,7 @@ namespace Student_Attendace_System.Dashbord
             this.textBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.textBox2.Location = new System.Drawing.Point(21, 108);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(398, 29);
             this.textBox2.TabIndex = 4;
@@ -151,7 +151,7 @@ namespace Student_Attendace_System.Dashbord
             this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(446, 201);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(133, 29);
             this.comboBox1.TabIndex = 6;
@@ -163,7 +163,7 @@ namespace Student_Attendace_System.Dashbord
             this.comboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(21, 201);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(398, 29);
             this.comboBox2.TabIndex = 7;
@@ -199,7 +199,7 @@ namespace Student_Attendace_System.Dashbord
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(603, 197);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(69, 31);
             this.button3.TabIndex = 11;
@@ -213,7 +213,7 @@ namespace Student_Attendace_System.Dashbord
             this.back_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.back_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_back_30;
             this.back_btn.Location = new System.Drawing.Point(997, 630);
-            this.back_btn.Margin = new System.Windows.Forms.Padding(2);
+            this.back_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.back_btn.Name = "back_btn";
             this.back_btn.Size = new System.Drawing.Size(81, 34);
             this.back_btn.TabIndex = 14;
@@ -226,7 +226,7 @@ namespace Student_Attendace_System.Dashbord
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(21, 637);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(112, 27);
             this.button4.TabIndex = 15;
@@ -239,7 +239,7 @@ namespace Student_Attendace_System.Dashbord
             this.showAll_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.showAll_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showAll_btn.Location = new System.Drawing.Point(596, 108);
-            this.showAll_btn.Margin = new System.Windows.Forms.Padding(2);
+            this.showAll_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.showAll_btn.Name = "showAll_btn";
             this.showAll_btn.Size = new System.Drawing.Size(37, 31);
             this.showAll_btn.TabIndex = 18;
@@ -249,6 +249,8 @@ namespace Student_Attendace_System.Dashbord
             // 
             // dataView
             // 
+            this.dataView.AllowUserToOrderColumns = true;
+            this.dataView.AllowUserToResizeColumns = false;
             this.dataView.AllowUserToResizeRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -256,6 +258,7 @@ namespace Student_Attendace_System.Dashbord
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(222)))), ((int)(((byte)(33)))));
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
             this.dataView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.None;
             this.dataView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
@@ -271,8 +274,8 @@ namespace Student_Attendace_System.Dashbord
             this.chekBox,
             this.teacherId,
             this.TeacherName,
-            this.department,
             this.email,
+            this.department,
             this.updateBtn,
             this.deleteBtn});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -298,6 +301,7 @@ namespace Student_Attendace_System.Dashbord
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataView.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataView.RowHeadersVisible = false;
+            this.dataView.RowHeadersWidth = 51;
             this.dataView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             dataGridViewCellStyle5.BackColor = System.Drawing.Color.WhiteSmoke;
             dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -305,7 +309,7 @@ namespace Student_Attendace_System.Dashbord
             dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(222)))), ((int)(((byte)(33)))));
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
             this.dataView.RowsDefaultCellStyle = dataGridViewCellStyle5;
-            this.dataView.Size = new System.Drawing.Size(862, 349);
+            this.dataView.Size = new System.Drawing.Size(840, 349);
             this.dataView.TabIndex = 22;
             this.dataView.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dataView.ThemeStyle.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -342,60 +346,70 @@ namespace Student_Attendace_System.Dashbord
             // 
             // teacherId
             // 
-            this.teacherId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.teacherId.FillWeight = 39.95641F;
+            this.teacherId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.teacherId.FillWeight = 79.91282F;
             this.teacherId.HeaderText = "Teacher Id";
+            this.teacherId.MinimumWidth = 6;
             this.teacherId.Name = "teacherId";
             this.teacherId.ReadOnly = true;
             this.teacherId.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.teacherId.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.teacherId.Width = 80;
             // 
             // TeacherName
             // 
-            this.TeacherName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.TeacherName.FillWeight = 39.95641F;
+            this.TeacherName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.TeacherName.FillWeight = 26.63761F;
             this.TeacherName.HeaderText = "Teacher Name";
+            this.TeacherName.MinimumWidth = 6;
             this.TeacherName.Name = "TeacherName";
             this.TeacherName.ReadOnly = true;
             this.TeacherName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // department
-            // 
-            this.department.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.department.FillWeight = 39.95641F;
-            this.department.HeaderText = "Department";
-            this.department.Name = "department";
-            this.department.ReadOnly = true;
-            this.department.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.TeacherName.Width = 200;
             // 
             // email
             // 
-            this.email.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.email.FillWeight = 39.95641F;
+            this.email.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.email.FillWeight = 26.63761F;
             this.email.HeaderText = "Email";
+            this.email.MinimumWidth = 6;
             this.email.Name = "email";
             this.email.ReadOnly = true;
             this.email.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.email.Width = 200;
+            // 
+            // department
+            // 
+            this.department.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.department.FillWeight = 26.63761F;
+            this.department.HeaderText = "Department";
+            this.department.MinimumWidth = 6;
+            this.department.Name = "department";
+            this.department.ReadOnly = true;
+            this.department.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.department.Width = 200;
             // 
             // updateBtn
             // 
             this.updateBtn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.updateBtn.FillWeight = 220.3134F;
             this.updateBtn.HeaderText = "Update";
+            this.updateBtn.MinimumWidth = 6;
             this.updateBtn.Name = "updateBtn";
             this.updateBtn.ReadOnly = true;
             this.updateBtn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.updateBtn.Width = 60;
+            this.updateBtn.Width = 70;
             // 
             // deleteBtn
             // 
             this.deleteBtn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.deleteBtn.FillWeight = 196.6236F;
             this.deleteBtn.HeaderText = "Delete";
+            this.deleteBtn.MinimumWidth = 6;
             this.deleteBtn.Name = "deleteBtn";
             this.deleteBtn.ReadOnly = true;
             this.deleteBtn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.deleteBtn.Width = 60;
+            this.deleteBtn.Width = 70;
             // 
             // AddTeacher
             // 
@@ -416,7 +430,7 @@ namespace Student_Attendace_System.Dashbord
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataView);
             this.ForeColor = System.Drawing.Color.White;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AddTeacher";
             this.Size = new System.Drawing.Size(1114, 684);
             this.panel1.ResumeLayout(false);
@@ -456,8 +470,8 @@ namespace Student_Attendace_System.Dashbord
         private DataGridViewCheckBoxColumn chekBox;
         private DataGridViewTextBoxColumn teacherId;
         private DataGridViewTextBoxColumn TeacherName;
-        private DataGridViewTextBoxColumn department;
         private DataGridViewTextBoxColumn email;
+        private DataGridViewTextBoxColumn department;
         private DataGridViewButtonColumn updateBtn;
         private DataGridViewButtonColumn deleteBtn;
     }
