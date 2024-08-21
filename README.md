@@ -1,2 +1,8 @@
 # Student_Attendace_System
-final project with all components and form windows
+
+*  windows .net Winform Application with FAST API backend with postgress SQL database;
+-   	can manage Stutent atendance,
+-		get atendance reports
+
+	
+

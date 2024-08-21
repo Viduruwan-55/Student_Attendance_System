@@ -9,7 +9,7 @@ namespace StudentsManagementSystemForm.shared
     public static class APIHelper
     {
         // Base URL for the API
-        public static readonly string baseURL = "https://fastapi-backend-2meuzsegna-uc.a.run.app";
+        public static readonly string baseURL = "https://university-backend-es4ftzjzmq-uc.a.run.app";
 
         
 

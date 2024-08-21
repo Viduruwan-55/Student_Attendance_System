@@ -40,7 +40,7 @@ namespace Student_Attendace_System.Dashbord
             Load += new EventHandler(load);
         }
 
-        public static readonly string baseurl = "https://fastapi-backend-2meuzsegna-uc.a.run.app";
+        public static readonly string baseurl = "https://university-backend-es4ftzjzmq-uc.a.run.app";
 
         public static async Task<List<T>> Get<T>(string url)
         {

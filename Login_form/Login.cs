@@ -23,7 +23,12 @@ namespace Student_Attendace_System.Login_form
 
         private void ClosePIcBox_Click(object sender, EventArgs e)
         {
-            this.Close();
+            DialogResult result = MessageBox.Show("Are you sure you want to exit?", "Conformed Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result== DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
         private async void signUpBtn_Click(object sender, EventArgs e)

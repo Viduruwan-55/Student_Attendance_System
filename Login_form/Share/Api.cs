@@ -15,7 +15,7 @@ namespace Student_Attendace_System.Login_form
 {    
     public class Api
     {
-        private static readonly string loginURL = "https://fastapi-backend-2meuzsegna-uc.a.run.app/login";
+        private static readonly string loginURL = "https://university-backend-es4ftzjzmq-uc.a.run.app/login";
 
         public async static Task<string> Login(string userName, string pass)
         {

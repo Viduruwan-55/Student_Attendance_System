@@ -355,6 +355,7 @@ namespace Student_Attendace_System.PopUpForms
             this.header.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 
         }
 

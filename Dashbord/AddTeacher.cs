@@ -22,7 +22,7 @@ namespace Student_Attendace_System.Dashbord
             Load += new EventHandler(Teacher_load);
         }
         private List<TeacherData> data = new List<TeacherData>();
-        public static readonly string baseurl = "https://fastapi-backend-2meuzsegna-uc.a.run.app";
+        public static readonly string baseurl = "https://university-backend-es4ftzjzmq-uc.a.run.app";
 
         public static async Task<List<TeacherData>> Get(string url)
         {
