@@ -280,15 +280,16 @@
             this.guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
             this.guna2ComboBox2.ItemHeight = 30;
             this.guna2ComboBox2.Items.AddRange(new object[] {
-            "1st Year",
-            "2nd Year",
-            "3rd Year",
-            "4th Year"});
+            "Computer Science",
+            "BICT",
+            "ET",
+            "Software Engineering"});
             this.guna2ComboBox2.Location = new System.Drawing.Point(436, 155);
             this.guna2ComboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2ComboBox2.Name = "guna2ComboBox2";
             this.guna2ComboBox2.Size = new System.Drawing.Size(335, 36);
             this.guna2ComboBox2.TabIndex = 9;
+            this.guna2ComboBox2.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox2_SelectedIndexChanged);
             // 
             // gunaLabel4
             // 

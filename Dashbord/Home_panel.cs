@@ -123,5 +123,10 @@ namespace Student_Attendace_System.Dashbord
         {
 
         }
+
+        private void guna2ComboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
