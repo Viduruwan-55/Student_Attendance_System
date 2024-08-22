@@ -36,10 +36,6 @@ namespace Student_Attendace_System.Dashbord
             this.uniLb = new System.Windows.Forms.Label();
             this.dashbord_btn = new System.Windows.Forms.Button();
             this.log_out_btn = new System.Windows.Forms.Button();
-            this.home_panel2 = new Student_Attendace_System.Dashbord.Home_panel();
-            this.addTeacher2 = new Student_Attendace_System.Dashbord.AddTeacher();
-            this.addStudent1 = new Student_Attendace_System.Dashbord.AddStudent();
-            this.addLecture2 = new Student_Attendace_System.Dashbord.AddLecture();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -51,13 +47,17 @@ namespace Student_Attendace_System.Dashbord
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
+            this.logo_pic_box = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.home_panel2 = new Student_Attendace_System.Dashbord.Home_panel();
+            this.addTeacher2 = new Student_Attendace_System.Dashbord.AddTeacher();
+            this.addStudent1 = new Student_Attendace_System.Dashbord.AddStudent();
+            this.addLecture2 = new Student_Attendace_System.Dashbord.AddLecture();
             this.addTeacher = new Student_Attendace_System.Dashbord.AddTeacher();
             this.sTudent1 = new Student_Attendace_System.Dashbord.AddStudent();
             this.addLecture1 = new Student_Attendace_System.Dashbord.AddLecture();
             this.addTeacher1 = new Student_Attendace_System.Dashbord.AddTeacher();
-            this.logo_pic_box = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.uniLogoPicBox)).BeginInit();
             this.panel4.SuspendLayout();
@@ -257,10 +257,10 @@ namespace Student_Attendace_System.Dashbord
             this.panel4.Controls.Add(this.pictureBox3);
             this.panel4.Controls.Add(this.facultyLb);
             this.panel4.Controls.Add(this.uniLb);
-            this.panel4.Location = new System.Drawing.Point(435, 0);
+            this.panel4.Location = new System.Drawing.Point(437, 0);
             this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1485, 128);
+            this.panel4.Size = new System.Drawing.Size(1483, 128);
             this.panel4.TabIndex = 13;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
@@ -341,46 +341,6 @@ namespace Student_Attendace_System.Dashbord
             this.log_out_btn.Text = "Log out\r\n\r\n\r\n\r\n";
             this.log_out_btn.UseVisualStyleBackColor = false;
             this.log_out_btn.Click += new System.EventHandler(this.log_out_btn_Click);
-            // 
-            // home_panel2
-            // 
-            this.home_panel2.BackColor = System.Drawing.Color.White;
-            this.home_panel2.Location = new System.Drawing.Point(435, 130);
-            this.home_panel2.Margin = new System.Windows.Forms.Padding(5);
-            this.home_panel2.Name = "home_panel2";
-            this.home_panel2.Size = new System.Drawing.Size(1484, 950);
-            this.home_panel2.TabIndex = 18;
-            this.home_panel2.Load += new System.EventHandler(this.home_panel2_Load);
-            // 
-            // addTeacher2
-            // 
-            this.addTeacher2.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.addTeacher2.ForeColor = System.Drawing.Color.White;
-            this.addTeacher2.Location = new System.Drawing.Point(433, 134);
-            this.addTeacher2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.addTeacher2.Name = "addTeacher2";
-            this.addTeacher2.Size = new System.Drawing.Size(1485, 946);
-            this.addTeacher2.TabIndex = 12;
-            // 
-            // addStudent1
-            // 
-            this.addStudent1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.addStudent1.ForeColor = System.Drawing.Color.White;
-            this.addStudent1.Location = new System.Drawing.Point(435, 134);
-            this.addStudent1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.addStudent1.Name = "addStudent1";
-            this.addStudent1.Size = new System.Drawing.Size(1485, 946);
-            this.addStudent1.TabIndex = 11;
-            // 
-            // addLecture2
-            // 
-            this.addLecture2.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.addLecture2.ForeColor = System.Drawing.Color.White;
-            this.addLecture2.Location = new System.Drawing.Point(435, 134);
-            this.addLecture2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.addLecture2.Name = "addLecture2";
-            this.addLecture2.Size = new System.Drawing.Size(1485, 946);
-            this.addLecture2.TabIndex = 10;
             // 
             // panel5
             // 
@@ -464,6 +424,70 @@ namespace Student_Attendace_System.Dashbord
             this.guna2ContextMenuStrip1.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             this.guna2ContextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
+            // logo_pic_box
+            // 
+            this.logo_pic_box.Location = new System.Drawing.Point(37, 0);
+            this.logo_pic_box.Name = "logo_pic_box";
+            this.logo_pic_box.Size = new System.Drawing.Size(358, 154);
+            this.logo_pic_box.TabIndex = 12;
+            this.logo_pic_box.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(5, -6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(8, 8);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // home_panel2
+            // 
+            this.home_panel2.BackColor = System.Drawing.Color.White;
+            this.home_panel2.Location = new System.Drawing.Point(435, 130);
+            this.home_panel2.Margin = new System.Windows.Forms.Padding(5);
+            this.home_panel2.Name = "home_panel2";
+            this.home_panel2.Size = new System.Drawing.Size(1484, 950);
+            this.home_panel2.TabIndex = 18;
+            this.home_panel2.Load += new System.EventHandler(this.home_panel2_Load);
+            // 
+            // addTeacher2
+            // 
+            this.addTeacher2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.addTeacher2.ForeColor = System.Drawing.Color.White;
+            this.addTeacher2.Location = new System.Drawing.Point(433, 134);
+            this.addTeacher2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.addTeacher2.Name = "addTeacher2";
+            this.addTeacher2.Size = new System.Drawing.Size(1485, 946);
+            this.addTeacher2.TabIndex = 12;
+            // 
+            // addStudent1
+            // 
+            this.addStudent1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.addStudent1.ForeColor = System.Drawing.Color.White;
+            this.addStudent1.Location = new System.Drawing.Point(435, 134);
+            this.addStudent1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.addStudent1.Name = "addStudent1";
+            this.addStudent1.Size = new System.Drawing.Size(1485, 946);
+            this.addStudent1.TabIndex = 11;
+            // 
+            // addLecture2
+            // 
+            this.addLecture2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.addLecture2.ForeColor = System.Drawing.Color.White;
+            this.addLecture2.Location = new System.Drawing.Point(435, 134);
+            this.addLecture2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.addLecture2.Name = "addLecture2";
+            this.addLecture2.Size = new System.Drawing.Size(1485, 946);
+            this.addLecture2.TabIndex = 10;
+            // 
             // addTeacher
             // 
             this.addTeacher.BackColor = System.Drawing.SystemColors.ButtonFace;
@@ -504,30 +528,6 @@ namespace Student_Attendace_System.Dashbord
             this.addTeacher1.Size = new System.Drawing.Size(1114, 684);
             this.addTeacher1.TabIndex = 0;
             // 
-            // logo_pic_box
-            // 
-            this.logo_pic_box.Location = new System.Drawing.Point(37, 0);
-            this.logo_pic_box.Name = "logo_pic_box";
-            this.logo_pic_box.Size = new System.Drawing.Size(358, 154);
-            this.logo_pic_box.TabIndex = 12;
-            this.logo_pic_box.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(5, -6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(8, 8);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // Dashbord_window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -541,6 +541,7 @@ namespace Student_Attendace_System.Dashbord
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Dashbord_window";
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.uniLogoPicBox)).EndInit();
