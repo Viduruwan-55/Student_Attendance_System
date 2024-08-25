@@ -537,11 +537,9 @@ namespace Student_Attendace_System.Dashbord
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.panel2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Dashbord_window";
             this.Text = "Form1";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.uniLogoPicBox)).EndInit();
@@ -551,6 +549,8 @@ namespace Student_Attendace_System.Dashbord
             ((System.ComponentModel.ISupportInitialize)(this.logo_pic_box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Sizable;
             this.ResumeLayout(false);
 
         }
