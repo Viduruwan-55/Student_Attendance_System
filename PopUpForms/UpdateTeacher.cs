@@ -73,6 +73,10 @@ namespace Student_Attendace_System.PopUpForms
             Console.WriteLine("Posting Student Name: " + teachername);
             Console.WriteLine("Posting Student Degree: " + teacherEmail);
 
+            if(teacherid == " " || teacherDepartment == " " || teachername == " " || teacherEmail == " ")
+            {
+                MessageBox.Show("Failed to update teacher.");
+            }
 
             // Post the values to the API
             var response = await APIHelper.UpdateTeacher(teacherid, teacherDepartment, teachername, teacherEmail);
