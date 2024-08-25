@@ -120,6 +120,7 @@ namespace Student_Attendace_System.PopUpForms
             this.Name = "StudentUpdatedPopUp";
             this.header.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
             this.PerformLayout();
 
