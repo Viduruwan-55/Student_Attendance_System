@@ -115,7 +115,42 @@ namespace Student_Attendace_System.Dashbord
 
            
         }
+        private async Task STudent_serch()
+        {
+            students = await Get<StudentData>($"{baseurl}/student/getAll");
+            faculty = await Get<FacultyData>($"{baseurl}/faculty/getAll");
+            facultyMapping = faculty.ToDictionary(f => f.id, f => f.name);
 
+
+            stdId.DataPropertyName = nameof(ViewModel.studentNo);
+            StdName.DataPropertyName = nameof(ViewModel.studentName);
+            degreeId.DataPropertyName = nameof(ViewModel.degreeId);
+            special_Id.DataPropertyName = nameof(ViewModel.specializationId);
+            email.DataPropertyName = nameof(ViewModel.email);
+            Faculty_Id.DataPropertyName = nameof(ViewModel.faculty);
+            department_id.DataPropertyName = nameof(ViewModel.departmentId);
+            image.DataPropertyName = nameof(ViewModel.image);
+            starting_yr.DataPropertyName = nameof(ViewModel.startingYr);
+
+            string searchValue = search_txtBox.Text.Trim().ToLower();
+            var filteredData = students.Where(row => row.student_no.ToLower().Contains(searchValue)).ToList();
+            var lectureViewModels = filteredData.Select(st => new ViewModel
+            {
+                studentNo = st.student_no,
+                studentName = st.student_name,
+                degreeId = degreeMapping.ContainsKey(st.degree_id) ? degreeMapping[st.degree_id] : "Unknown",
+                specializationId = specializationMapping.ContainsKey(st.specialization_id) ? specializationMapping[st.specialization_id] : "Unknown",
+                email = st.email,
+                faculty = facultyMapping.ContainsKey(st.faculty) ? facultyMapping[st.faculty] : "Unknown",
+                departmentId = departmentMapping.ContainsKey(st.department_id) ? departmentMapping[st.department_id] : "Unknown",
+                image = st.image,
+                startingYr = yearMapping.ContainsKey(st.starting_yr) ? yearMapping[st.starting_yr] : 0
+            }).ToList();
+
+            dataView.DataSource = lectureViewModels;
+
+
+        }
         public class StudentData
         {
             public string student_no { get; set; }
@@ -206,9 +241,10 @@ namespace Student_Attendace_System.Dashbord
 
         private async void serch_btn_Click(object sender, EventArgs e)
         {
-            string searchValue = search_txtBox.Text.ToLower();
-            var filteredData = students.Where(row => row.student_no.ToLower().Contains(searchValue)).ToList();
-            dataView.DataSource = filteredData;
+            await STudent_serch();
+            search_txtBox.Text = string.Empty;
+            // var filteredData = students.Where(row => row.student_no.ToLower().Contains(searchValue)).ToList();
+            // dataView.DataSource = filteredData;
 
         }
 
