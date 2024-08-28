@@ -1,0 +1,32 @@
+
+bin/
+obj/
+packages.config
+packages/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+[Ll]og/
+[Ll]ogs/
+
+# Ignore .NET Core generated files (if applicable)
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+getAll.json
+
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
